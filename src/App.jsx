@@ -4,575 +4,444 @@ import './App.css';
 // Logo asset
 import logoSm from './assets/logo/logo_sm.svg';
 
-// Image assets
+// Batch 1 Donasi Landingpage assets
+import donasiLogoWhite from './assets/donasi/logo/Logo.svg';
+import iconIndonesia from './assets/donasi/icons/indonesia.svg';
+import donasiHeroImg from './assets/donasi/images/image_hero.png';
+import heroSlide2Img from './assets/donasi/images/image_hero_slide2.jpg';
+import heroSlide3Img from './assets/donasi/images/image_hero_slide3.png';
+import iconPenerima from './assets/donasi/icons/Penerima.svg';
+import iconDonatur from './assets/donasi/icons/donatur.svg';
+import iconProgram from './assets/donasi/icons/Program.svg';
+import donasiProgramImg from './assets/donasi/images/image_program.jpg';
+import decorationKiri from './assets/donasi/decoration/Decoration-kiri.png';
+import imageSalurkan from './assets/donasi/images/image_salurkan.png';
+import bgSalurkan from './assets/donasi/images/bg-salurkan.png';
+import iconZakat3D from './assets/donasi/icons/zakat_3d.png';
+import iconDonate3D from './assets/donasi/icons/donate_3d.png';
+
+// Batch 2 Master Assets
+import decorationKanan from './assets/donasi/decoration/Decoration-kanan.png';
+import imageDonasi from './assets/donasi/images/image_donasi.png';
+import imageQurban from './assets/donasi/images/image_qurban.png';
+import dekorGarisProsesQurban from './assets/donasi/images/dekor-garis-proses-qurban.png';
+
+// Qurban Icons
+import iconCow from './assets/donasi/icons/icons_qurban/cow-2 1.svg';
+import iconGoat from './assets/donasi/icons/icons_qurban/goat-2 1.svg';
+import iconDonaturQurban from './assets/donasi/icons/icons_qurban/donatur.svg';
+import iconGeoLocation from './assets/donasi/icons/icons_qurban/geolocation.svg';
+import iconElementPlus from './assets/donasi/icons/icons_qurban/element-plus.svg';
+
+// QnA (Mengapa Qurban) Icons
+import iconAkad from './assets/donasi/icons/icons_qna/akad.png';
+import iconPenerimaManfaat from './assets/donasi/icons/icons_qna/penerima-manfaat.png';
+import iconHarga from './assets/donasi/icons/icons_qna/harga.png';
+import iconKayaManfaat from './assets/donasi/icons/icons_qna/kaya-manfaat.png';
+import iconLiveReport from './assets/donasi/icons/icons_qna/live-report.png';
+import iconTepatSasaran from './assets/donasi/icons/icons_qna/tepat-sasaran.png';
+
+// Proses Qurban Icons
+import iconPilihQurban from './assets/donasi/icons/icons_prosesqurban/pilih-qurban.png';
+import iconLengkapiQurban from './assets/donasi/icons/icons_prosesqurban/lengkapi-qurban.png';
+
+// Donasi Grid Icons
+import iconGridBencana from './assets/donasi/icons/icons_donasipilihan/bencana.svg';
+import iconGridPendidikan from './assets/donasi/icons/icons_donasipilihan/pendidikan.svg';
+import iconGridZakat from './assets/donasi/icons/icons_donasipilihan/zakat.svg';
+import iconGridKemanusiaan from './assets/donasi/icons/icons_donasipilihan/kemanusiaan.svg';
+import iconGridLainnya from './assets/donasi/icons/icons_donasipilihan/lainnya.svg';
+import iconGridElementPlus from './assets/donasi/icons/icons_donasipilihan/element-plus.svg';
+import iconDonasiTime from './assets/donasi/icons/time.svg';
+
+// Batch 3 Master Assets
+import imageBerita from './assets/donasi/images/image_berita.jpg';
+import imageDonasiSekarang from './assets/donasi/images/image_donasisekarang.jpg';
+import imageFooterAwards from './assets/donasi/images/image_footerawards.png';
+
+// Batch 3 Footer Social Icons
+import footerIconFacebook from './assets/donasi/icons/icons_footer/facebook.svg';
+import footerIconInstagram from './assets/donasi/icons/icons_footer/instagram-2.svg';
+import footerIconYoutube from './assets/donasi/icons/icons_footer/youtube.svg';
+import footerIconTiktok from './assets/donasi/icons/icons_footer/tiktok.svg';
+import footerIconX from './assets/donasi/icons/icons_footer/x.svg';
+
+// Image assets (used in earlier sections and bottom nav)
 import imageHero from './assets/image/image_hero.png';
 import imageCard from './assets/image/image_card.png';
 import imageProgram from './assets/image/image_program.jpg';
 import imageKegiatan from './assets/image/image_kegiatan.png';
 import imageProfil from './assets/image/image_profil.png';
-import imageTestimoni from './assets/image/image_testimoni.png';
-import imageCta from './assets/image/image_cta.png';
-import timeIcon from './assets/icons/icons_program/time.svg';
 
-// Brand icons
-import iconFacebook from './assets/icons/icons_hero/facebook.svg';
-import iconGoogle from './assets/icons/icons_hero/google.svg';
-import iconLastFm from './assets/icons/icons_hero/last.fm.svg';
-import iconNetflix from './assets/icons/icons_hero/netflix.svg';
-import iconSpotify from './assets/icons/icons_hero/spotify.svg';
-
-// Program Category Icons
-import iconProgSemua from './assets/icons/icons_program/semua.svg';
-import iconProgZakat from './assets/icons/icons_program/zakat.png';
-import iconProgPendidikan from './assets/icons/icons_program/pendidikan.svg';
-import iconProgKemanusiaan from './assets/icons/icons_program/kemanusiaan.svg';
-import iconProgBencana from './assets/icons/icons_program/bencana.svg';
-import iconProgLainnya from './assets/icons/icons_program/lainnya.svg';
-
-// Quote Icon
-import iconQuote from './assets/icons/icons_katamereka/quote.svg';
-import watermarkImg from "./assets/icons/icons_katamereka/watermark.png";
-
-// Decorations
-import decorationLeft from './assets/icons/decorations/decoration_left.svg';
-import decorationRight from './assets/icons/decorations/decoration_right.svg';
-
-// Layanan icons
+// Bottom Navigation icons
 import iconCourier from './assets/icons/icons_layanan/courier-express-.svg';
-import iconDevices from './assets/icons/icons_layanan/devices.svg';
 import iconLovely from './assets/icons/icons_layanan/lovely.svg';
-import iconMessages from './assets/icons/icons_layanan/messages.svg';
 
-// Kegiatan icons
-import iconCalendar from './assets/icons/icons_kegiatan/calender.svg';
-import iconLocation from './assets/icons/icons_kegiatan/lokasi.svg';
+// =========================================================================
+// BATCH 3 STATIC DATA DEFINITIONS
+// =========================================================================
 
-// Tentang badges
-import badgeAccreditation2 from './assets/icons/icons_tentang/Wo0J33FnBo6NsJMFkVFnyhsWiGwqK28RWSh4iB7h 2.png';
-import badgeAccreditation3 from './assets/icons/icons_tentang/Wo0J33FnBo6NsJMFkVFnyhsWiGwqK28RWSh4iB7h 3.png';
-import badgeAccreditation4 from './assets/icons/icons_tentang/Wo0J33FnBo6NsJMFkVFnyhsWiGwqK28RWSh4iB7h 4.png';
-
-// Footer icons
-import footerFacebook from './assets/icons/icons_footer/facebook.svg';
-import footerInstagram from './assets/icons/icons_footer/instagram.svg';
-import footerTiktok from './assets/icons/icons_footer/tiktok.svg';
-import footerYoutube from './assets/icons/icons_footer/youtube.svg';
-import footerX from './assets/icons/icons_footer/X.svg';
-import footerVector from './assets/icons/icons_footer/Vector.png';
-
-// Static Data Definitions
-const partnerLogos = [
-  { id: 'facebook', name: 'Facebook', src: iconFacebook },
-  { id: 'google', name: 'Google', src: iconGoogle },
-  { id: 'netflix', name: 'Netflix', src: iconNetflix },
-  { id: 'spotify', name: 'Spotify', src: iconSpotify },
-  { id: 'lastfm', name: 'Last.fm', src: iconLastFm }
-];
-
-const programCategories = [
-  { id: 'semua', label: 'Semua', icon: iconProgSemua },
-  { id: 'zakat', label: 'Zakat', icon: iconProgZakat },
-  { id: 'pendidikan', label: 'Pendidikan', icon: iconProgPendidikan },
-  { id: 'kemanusiaan', label: 'Kemanusiaan', icon: iconProgKemanusiaan },
-  { id: 'bencana', label: 'Bencana', icon: iconProgBencana },
-  { id: 'lainnya', label: 'Lainnya', icon: iconProgLainnya }
-];
-
-const programItems = [
+const newsItems = [
   {
     id: 1,
-    title: 'Sosial Dakwah',
-    desc: 'Memastikan Pendidikan yang Inklusif dan Berkualitas Setara...',
-    category: 'Pendidikan',
-    img: imageProgram
+    title: 'BMM Salurkan Bantuan Dapur Umum untuk Korban Banjir Solok Sumatera Barat',
+    date: '24 Sep, 2026',
+    img: imageBerita
   },
   {
     id: 2,
-    title: 'Pemberdayaan Ekonomi',
-    desc: 'Mendorong Kemandirian Mustahik Melalui Usaha Mikro Syariah...',
-    category: 'Ekonomi',
-    img: imageCard
+    title: 'BMM Salurkan Bantuan Dapur Umum untuk Korban Banjir Solok Sumatera Barat',
+    date: '24 Sep, 2026',
+    img: imageBerita
   },
   {
     id: 3,
-    title: 'Tanggap Darurat Bencana',
-    desc: 'Aksi Cepat Tanggap Kemanusiaan untuk Korban Bencana Alam...',
-    category: 'Kemanusiaan',
-    img: imageKegiatan
+    title: 'BMM Salurkan Bantuan Dapur Umum untuk Korban Banjir Solok Sumatera Barat',
+    date: '24 Sep, 2026',
+    img: imageBerita
   }
 ];
 
-const serviceItems = [
-  {
-    id: 1,
-    title: 'Jemput Zakat',
-    desc: 'Layanan penjemputan donasi zakat, infaq, dan sedekah langsung ke lokasi Anda.',
-    icon: iconCourier
-  },
-  {
-    id: 2,
-    title: 'Konsultasi Zakat',
-    desc: 'Konsultasikan penghitungan dan kewajiban zakat Anda bersama ustadz berpengalaman.',
-    icon: iconDevices
-  },
-  {
-    id: 3,
-    title: 'Kalkulator Zakat',
-    desc: 'Hitung kewajiban zakat penghasilan, zakat maal, dan profesi dengan cepat & akurat.',
-    icon: iconLovely
-  },
-  {
-    id: 4,
-    title: 'Layanan Muzakki',
-    desc: 'Dapatkan laporan penyaluran zakat serta konfirmasi donasi secara berkala.',
-    icon: iconMessages
-  }
+const footerProgramLinks = [
+  { label: 'Sosial Dakwah', href: '#program' },
+  { label: 'Kemanusiaan', href: '#program' },
+  { label: 'Kesehatan', href: '#program' },
+  { label: 'Ekonomi', href: '#program' },
+  { label: 'Pendidikan', href: '#program' }
 ];
 
-const donationItems = [
+const footerLinkLinks = [
+  { label: 'Berita', href: '#berita' },
+  { label: 'Donasi', href: '#donasi-grid' },
+  { label: 'Kajian', href: '#kajian' },
+  { label: 'Tentang Kami', href: '#tentang' },
+  { label: 'Rekening Donasi', href: '#rekening' }
+];
+
+const footerLayananLinks = [
+  { label: 'Ziswaf Prioritas', href: '#layanan' },
+  { label: 'Konsultasi Zakat', href: '#layanan' },
+  { label: 'Kalkulator Zakat', href: '#layanan' },
+  { label: 'Jemput Ziswaf', href: '#layanan' }
+];
+
+const footerLainnyaLinks = [
+  { label: 'Karir & Kerelawanan', href: '#karir' },
+  { label: 'Kontak Kami', href: '#kontak' },
+  { label: 'FAQ', href: '#faq' },
+  { label: 'Kebijakan & Privasi', href: '#kebijakan' },
+  { label: 'Syarat & Ketentuan', href: '#syarat' }
+];
+
+// =========================================================================
+// BATCH 2 STATIC DATA DEFINITIONS
+// =========================================================================
+
+const donasiPilihanPrograms = [
   {
-    id: 1,
+    id: 'donasi-1',
+    category: 'kemanusiaan',
+    title: 'Jantung Bocor, Almaira (4 bulan) Butuh Pengobatan Segera',
+    collected: 'Rp 117.550.291',
+    sisaHari: 168,
+    progress: '32%',
+    progressValue: 32,
+    img: imageDonasi
+  },
+  {
+    id: 'donasi-2',
     category: 'pendidikan',
-    badge: 'BEASISWA',
     title: 'Bantu Anak-Anak Yatim dan Dhuafa Meraih Cita-Cita Pendidikan Tinggi',
     collected: 'Rp 45.500.000',
-    target: 'Rp 100.000.000',
-    progress: '45.5%',
     sisaHari: 120,
+    progress: '45.5%',
+    progressValue: 45.5,
     img: imageCard
   },
   {
-    id: 2,
+    id: 'donasi-3',
     category: 'zakat',
-    badge: 'ZAKAT',
     title: 'Tunaikan Zakat Maal Anda Untuk Pemberdayaan Ekonomi Ummat',
     collected: 'Rp 128.000.000',
-    target: 'Rp 200.000.000',
-    progress: '64%',
     sisaHari: 60,
-    img: imageProgram
-  },
-  {
-    id: 3,
-    category: 'kemanusiaan',
-    badge: 'KEMANUSIAAN',
-    title: 'Bantuan Kemanusiaan dan Tanggap Bencana untuk Korban Bencana',
-    collected: 'Rp 89.200.000',
-    target: 'Rp 150.000.000',
-    progress: '59.4%',
-    sisaHari: 45,
-    img: imageKegiatan
-  },
-  {
-    id: 4,
-    category: 'lainnya',
-    badge: 'WAKAF',
-    title: 'Wakaf Pembangunan Rumah Tahfidz Qur\'an dan Sarana Ibadah',
-    collected: 'Rp 210.000.000',
-    target: 'Rp 500.000.000',
-    progress: '42%',
-    sisaHari: 200,
-    img: imageCard
-  },
-  {
-    id: 5,
-    category: 'zakat',
-    badge: 'INFAQ',
-    title: 'Sedekah Subuh Berkah Paket Sembako Untuk Keluarga Prasejahtera',
-    collected: 'Rp 34.000.000',
-    target: 'Rp 50.000.000',
-    progress: '68%',
-    sisaHari: 30,
-    img: imageProgram
-  },
-  {
-    id: 6,
-    category: 'bencana',
-    badge: 'KESEHATAN',
-    title: 'Layanan Ambulans Gratis & Operasional Kemanusiaan Pelosok Negeri',
-    collected: 'Rp 76.500.000',
-    target: 'Rp 120.000.000',
-    progress: '63.75%',
-    sisaHari: 90,
-    img: imageKegiatan
-  },
-  {
-    id: 7,
-    category: 'pendidikan',
-    badge: 'BEASISWA',
-    title: 'Beasiswa Santri Berprestasi Program Pesantren Tahfidz Nasional',
-    collected: 'Rp 22.000.000',
-    target: 'Rp 75.000.000',
-    progress: '29.3%',
-    sisaHari: 150,
-    img: imageCard
-  },
-  {
-    id: 8,
-    category: 'kemanusiaan',
-    badge: 'PALESTINA',
-    title: 'Solidaritas Palestina: Bantuan Darurat untuk Saudara Kita',
-    collected: 'Rp 320.000.000',
-    target: 'Rp 500.000.000',
     progress: '64%',
-    sisaHari: 365,
+    progressValue: 64,
     img: imageProgram
   },
   {
-    id: 9,
+    id: 'donasi-4',
     category: 'bencana',
-    badge: 'BENCANA',
     title: 'Tanggap Darurat Banjir dan Longsor Sulawesi Tengah',
     collected: 'Rp 55.000.000',
-    target: 'Rp 80.000.000',
-    progress: '68.75%',
     sisaHari: 14,
-    img: imageKegiatan
-  }
-];
-
-const testimonials = [
-  {
-    id: 1,
-    name: "Tuan Syarif Ja'afar Al-Habsyi",
-    role: 'Donatur Baitulmaal Muamalat',
-    quote: 'BMM sangat transparan dan amanah dalam mengelola dana zakat dan infaq. Program-programnya memberikan manfaat nyata dan berkelanjutan bagi masyarakat yang membutuhkan.',
-    avatar: imageProfil
-  },
-  {
-    id: 2,
-    name: 'Dra. Hj. Siti Aminah',
-    role: 'Mitra Program Pendidikan',
-    quote: 'Kerjasama dengan BMM membawa dampak luar biasa bagi anak-anak penerima beasiswa. Penyaluran bantuan berjalan tepat waktu dan berorientasi masa depan.',
-    avatar: imageProfil
-  },
-  {
-    id: 3,
-    name: 'H. Bambang Sujipto',
-    role: 'Muzakki Prioritas',
-    quote: 'Layanan penjemputan zakat dan laporan berkala BMM membuat ibadah zakat kami semakin tenang, profesional, dan akuntabel.',
-    avatar: imageProfil
-  }
-];
-
-const activityItems = [
-  {
-    id: 1,
-    title: 'Aksi Tanggap Kemanusiaan Duka Palestina, Duka Kita Bersama',
-    date: '24 September 2024',
-    location: 'Jakarta Selatan',
+    progress: '68.8%',
+    progressValue: 68.8,
     img: imageKegiatan
   },
   {
-    id: 2,
-    title: 'Penyaluran Beasiswa Sarjana BMM Angkatan IV kepada 50 Mahasiswa',
-    date: '18 September 2024',
-    location: 'Bandung, Jawa Barat',
+    id: 'donasi-5',
+    category: 'kemanusiaan',
+    title: 'Solidaritas Palestina: Bantuan Darurat untuk Saudara Kita',
+    collected: 'Rp 320.000.000',
+    sisaHari: 365,
+    progress: '64%',
+    progressValue: 64,
     img: imageProgram
   },
   {
-    id: 3,
-    title: 'Peresmian Program Desa Mandiri Berdaya di Kawasan Pesisir',
-    date: '10 September 2024',
-    location: 'Banten',
+    id: 'donasi-6',
+    category: 'lainnya',
+    title: 'Wakaf Pembangunan Rumah Tahfidz Qur\'an dan Sarana Ibadah',
+    collected: 'Rp 210.000.000',
+    sisaHari: 200,
+    progress: '42%',
+    progressValue: 42,
     img: imageCard
   }
 ];
 
-const beneficiaryItems = [
+const qurbanPackagesData = [
   {
-    id: 1,
-    name: 'Ahmad Fauzi',
-    role: 'Penerima Beasiswa Sarjana',
-    quote: 'Terima kasih banyak Baitulmaal Muamalat. Berkat beasiswa ini saya dapat menyelesaikan pendidikan sarjana dan mewujudkan impian keluarga.',
-    avatar: imageTestimoni
+    id: 'qurban-1',
+    category: 'kambing',
+    title: 'Qurban Kambing di Uganda Afrika Selatan',
+    originalPrice: 'Rp.1.550.000',
+    discount: '20%',
+    price: 'Rp 1.350.000',
+    location: 'Uganda UG Afrika',
+    donors: '3 Orang',
+    img: imageQurban
   },
   {
-    id: 2,
-    name: 'Siti Rahmah',
-    role: 'Penerima Program Ekonomi Mandiri',
-    quote: 'Bantuan modal usaha dan pendampingan dari BMM sangat mengubah perekonomian keluarga kami. Usaha mikro kami kini semakin berkembang.',
-    avatar: imageTestimoni
+    id: 'qurban-2',
+    category: 'kambing',
+    title: 'Qurban Kambing di Uganda Afrika Selatan',
+    originalPrice: 'Rp.1.550.000',
+    discount: '20%',
+    price: 'Rp 1.350.000',
+    location: 'Uganda UG Afrika',
+    donors: '3 Orang',
+    img: imageQurban
   },
   {
-    id: 3,
-    name: 'Ustadz Abdullah',
-    role: 'Pengelola Rumah Tahfidz',
-    quote: 'Program wakaf BMM membantu terwujudnya sarana belajar Qur\'an yang layak bagi puluhan santri di pelosok daerah.',
-    avatar: imageTestimoni
+    id: 'qurban-3',
+    category: 'kambing',
+    title: 'Qurban Kambing di Uganda Afrika Selatan',
+    originalPrice: 'Rp.1.550.000',
+    discount: '20%',
+    price: 'Rp 1.350.000',
+    location: 'Uganda UG Afrika',
+    donors: '3 Orang',
+    img: imageQurban
   }
+];
+
+const mengapaQurbanFeatures = [
+  {
+    id: 'feat-1',
+    title: 'Akad Jelas',
+    desc: 'Menggunakan akad wakalah, Pequrban mewakilkan kepada pihak pengelola Baitulmaal Muamalat untuk membeli, mengurus, mengelola dan menyalurkan hewan Qurban',
+    icon: iconAkad
+  },
+  {
+    id: 'feat-2',
+    title: 'Penerima Manfaat',
+    desc: 'Masyarakat dhuafa, muallaf dan warga binaan dari mitra lokal Baitulmaal Muamalat.',
+    icon: iconPenerimaManfaat
+  },
+  {
+    id: 'feat-3',
+    title: 'Harga Terjangkau',
+    desc: 'Harga hewan qurban murah dengan kualitas daging yang baik.',
+    icon: iconHarga
+  },
+  {
+    id: 'feat-4',
+    title: 'Kaya Manfaat',
+    desc: 'Memberi banyak manfaat kepada seluruh asia untuk kebahagiaan bersama.',
+    icon: iconKayaManfaat
+  },
+  {
+    id: 'feat-5',
+    title: 'Live Report',
+    desc: 'Saat distribusi hewan qurban, sahibulqurban akan mendapatkan live report berupa foto dan video saat penyembelihan hewan.',
+    icon: iconLiveReport
+  },
+  {
+    id: 'feat-6',
+    title: 'Tepat Sasaran',
+    desc: 'Hasil qurban telah dipilih sesuai dengan kebutuhan agar lebih tepat sasaran.',
+    icon: iconTepatSasaran
+  }
+];
+
+const prosesQurbanStepsData = [
+  {
+    id: 'step-1',
+    title: 'Pilih Hewan Qurban',
+    desc: 'Nikmati layanan dan pendampingan khusus yang memberikan kemudahan bagi Sahabat BMM dalam menyalurkan ZISWAF secara lebih nyaman dan terarah.',
+    icon: iconPilihQurban
+  },
+  {
+    id: 'step-2',
+    title: 'Lengkapi Data Qurban',
+    desc: 'Isi nama pekurban, kontak, jumlah hewan atau bagian Qurban, serta nama yang akan dicantumkan dalam doa atau laporan Qurban.',
+    icon: iconPilihQurban
+  },
+  {
+    id: 'step-3',
+    title: 'Lakukan Pembayaran',
+    desc: 'Periksa ringkasan pesanan, nominal pembayaran, dan metode pembayaran sebelum menyelesaikan transaksi.',
+    icon: iconLengkapiQurban
+  },
+  {
+    id: 'step-4',
+    title: 'Qurban Dilaksanakan',
+    desc: 'BMM mengelola pelaksanaan Qurban dan penyaluran daging kepada penerima manfaat. Pekurban memperoleh konfirmasi dan informasi dokumentasi sesuai layanan yang tersedia.',
+    icon: iconLengkapiQurban
+  }
+];
+
+const donasiGridCategoriesList = [
+  { id: 'semua', label: 'Semua', icon: iconGridElementPlus },
+  { id: 'bencana', label: 'Bencana', icon: iconGridBencana },
+  { id: 'pendidikan', label: 'Pendidikan', icon: iconGridPendidikan },
+  { id: 'zakat', label: 'Zakat', icon: iconGridZakat },
+  { id: 'kemanusiaan', label: 'Kemanusiaan', icon: iconGridKemanusiaan },
+  { id: 'lainnya', label: 'Lainnya', icon: iconGridLainnya }
 ];
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState('landing'); // 'landing' | 'program-donasi'
   const [searchOpen, setSearchOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   const searchRef = useRef(null);
-  const [heroSlideIndex, setHeroSlideIndex] = useState(1);
-  const [withTransition, setWithTransition] = useState(true);
-  const [heroDragState, setHeroDragState] = useState({
-    isDragging: false,
-    startX: 0,
-    dragOffset: 0
-  });
-  const [activeDonationCategory, setActiveDonationCategory] = useState('semua');
-  const [donasiPageCategory, setDonasiPageCategory] = useState('semua');
-  const [donasiShowAll, setDonasiShowAll] = useState(false);
 
-  // Awards modal state
-  const [activeAward, setActiveAward] = useState(null);
-  const [activeTestimonial, setActiveTestimonial] = useState(null);
-  const [activeProgressId, setActiveProgressId] = useState(null);
-  const [activeServiceId, setActiveServiceId] = useState(1);
-
-  // Dismiss mobile progress tooltip on outside click
-  useEffect(() => {
-    const handleOutsideClick = (e) => {
-      if (!e.target.closest('.donation-progress-wrapper')) {
-        setActiveProgressId(null);
-      }
-    };
-    document.addEventListener('click', handleOutsideClick);
-    return () => document.removeEventListener('click', handleOutsideClick);
-  }, []);
-
-  // Helper to dynamically calculate progress percentage accurately
-  const getProgressPercent = (item) => {
-    if (item.collected && item.target) {
-      const c = parseInt(String(item.collected).replace(/[^0-9]/g, ''), 10);
-      const t = parseInt(String(item.target).replace(/[^0-9]/g, ''), 10);
-      if (t > 0 && !isNaN(c)) {
-        const pct = (c / t) * 100;
-        return pct % 1 === 0 ? `${pct.toFixed(0)}%` : `${pct.toFixed(1)}%`;
-      }
+  // Hero Slider State (Autoplay 5.5s, pause on hover, manual indicator navigation)
+  const heroSlides = [
+    {
+      id: 1,
+      image: donasiHeroImg,
+      alt: 'Sucikan Harta dan Jiwa — Tunaikan Zakat Maal Hanya 2,5%'
+    },
+    {
+      id: 2,
+      image: heroSlide2Img,
+      alt: 'Kemitraan Kebaikan — Sinergi Bersama Baitulmaal Muamalat'
+    },
+    {
+      id: 3,
+      image: heroSlide3Img,
+      alt: 'Zakat dan Sedekah Membuka Pintu Keberkahan'
+    },
+    {
+      id: 4,
+      image: imageHero,
+      alt: 'Baitulmaal Muamalat — Mengalirkan Kebaikan untuk Ummat'
     }
-    return item.progress || '0%';
-  };
-
-  const [awardActiveIndex, setAwardActiveIndex] = useState(0);
-  const [awardVisibleItems, setAwardVisibleItems] = useState(typeof window !== 'undefined' && window.innerWidth < 992 ? 2 : 3);
-  const [awardDragState, setAwardDragState] = useState({ isDragging: false, startX: 0, dragOffset: 0 });
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 768) {
-        setAwardVisibleItems(2);
-      } else if (window.innerWidth < 992) {
-        setAwardVisibleItems(2);
-      } else {
-        setAwardVisibleItems(3);
-      }
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  const awardsData = [
-    { id: 1, title: "3rd Rank The Best Institution of Amil Zakat 2010", image: badgeAccreditation2 },
-    { id: 2, title: "Best Empowering In Economic Program 2010, 2011, 2012", image: badgeAccreditation3 },
-    { id: 3, title: "Reka Karsa Sosial (Gold) CSR Indonesia Awards", image: badgeAccreditation4 },
-    { id: 4, title: "(Islamic Social Responsibility) GIFA Excellence Award 2021", image: badgeAccreditation2 },
-    { id: 5, title: "(Best Company-Based Waqf Program Fundraising) Indonesia Fundraising Award 2021", image: badgeAccreditation3 },
-    { id: 6, title: "(Best Choice in Social Institutions) Indonesia Best Choice Award 2021", image: badgeAccreditation4 },
-    { id: 7, title: "LAZNAS with Best Distribution Impact BAZNAS Award 2022", image: badgeAccreditation2 },
-    { id: 8, title: "Indonesia’s Best Corporate Sustainability Initiatives Circular Economy Category MIX Award 2022", image: badgeAccreditation3 },
-    { id: 9, title: "Innovative Strategic Partnerships for Institutional Capacity Strengthening 2025", image: badgeAccreditation4 },
-    { id: 10, title: "Gold Category in MSME Capacity Building 2025", image: badgeAccreditation2 }
   ];
 
-  const maxAwardIndex = Math.max(0, awardsData.length - awardVisibleItems);
-  const safeAwardActiveIndex = Math.min(awardActiveIndex, maxAwardIndex);
+  const [heroActiveIndex, setHeroActiveIndex] = useState(0);
+  const [heroIsPaused, setHeroIsPaused] = useState(false);
+  const [heroIsDragging, setHeroIsDragging] = useState(false);
+  const [heroDragOffset, setHeroDragOffset] = useState(0);
+  const heroDragStartXRef = useRef(0);
+  const heroIsDraggingRef = useRef(false);
 
-  const handleAwardDragStart = (e) => {
-    setAwardDragState({
-      isDragging: true,
-      startX: e.type.includes('mouse') ? e.pageX : e.touches[0].pageX,
-      dragOffset: 0
-    });
+  useEffect(() => {
+    if (heroIsPaused || heroIsDragging) return;
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (mediaQuery.matches) return;
+
+    const timer = setInterval(() => {
+      setHeroActiveIndex((prev) => (prev + 1) % heroSlides.length);
+    }, 5500);
+
+    return () => clearInterval(timer);
+  }, [heroIsPaused, heroIsDragging, heroSlides.length]);
+
+  const handleHeroPointerDown = (e) => {
+    if (e.button !== undefined && e.button !== 0) return;
+    if (e.target.closest('.donasi-hero-notch')) return;
+
+    heroDragStartXRef.current = e.clientX;
+    heroIsDraggingRef.current = true;
+    setHeroIsDragging(true);
+    setHeroDragOffset(0);
+    setHeroIsPaused(true);
+
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId);
+    } catch {
+      // Fallback
+    }
   };
 
-  const handleAwardDragMove = (e) => {
-    if (!awardDragState.isDragging) return;
-    const currentX = e.type.includes('mouse') ? e.pageX : e.touches[0].pageX;
-    setAwardDragState(prev => ({ ...prev, dragOffset: currentX - prev.startX }));
+  const handleHeroPointerMove = (e) => {
+    if (!heroIsDraggingRef.current) return;
+    const diff = e.clientX - heroDragStartXRef.current;
+    let offset = diff;
+    if (
+      (heroActiveIndex === 0 && diff > 0) ||
+      (heroActiveIndex === heroSlides.length - 1 && diff < 0)
+    ) {
+      offset = diff * 0.4;
+    }
+    setHeroDragOffset(offset);
   };
 
-  const handleAwardDragEnd = () => {
-    if (!awardDragState.isDragging) return;
+  const handleHeroPointerUp = (e) => {
+    if (!heroIsDraggingRef.current) return;
+    heroIsDraggingRef.current = false;
+    setHeroIsDragging(false);
+    setHeroIsPaused(false);
 
-    const offset = awardDragState.dragOffset;
+    const diff = e.clientX - heroDragStartXRef.current;
     const threshold = 50;
 
-    let newIndex = safeAwardActiveIndex;
-    if (offset > threshold) {
-      newIndex -= 1;
-    } else if (offset < -threshold) {
-      newIndex += 1;
+    if (diff < -threshold) {
+      setHeroActiveIndex((prev) => (prev + 1) % heroSlides.length);
+    } else if (diff > threshold) {
+      setHeroActiveIndex((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
     }
+    setHeroDragOffset(0);
 
-    if (newIndex < 0) newIndex = 0;
-    if (newIndex > maxAwardIndex) newIndex = maxAwardIndex;
-
-    setAwardActiveIndex(newIndex);
-    setAwardDragState({ isDragging: false, startX: 0, dragOffset: 0 });
-  };
-
-  const handleAwardPrev = () => {
-    setAwardActiveIndex(prev => Math.max(0, prev - 1));
-  };
-
-  const handleAwardNext = () => {
-    setAwardActiveIndex(prev => Math.min(maxAwardIndex, prev + 1));
-  };
-
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === 'Escape') {
-        setActiveAward(null);
-        setActiveTestimonial(null);
+    try {
+      if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+        e.currentTarget.releasePointerCapture(e.pointerId);
       }
-    };
-    if (activeAward || activeTestimonial) {
-      window.addEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = '';
-    };
-  }, [activeAward, activeTestimonial]);
-
-  // Brand strip state
-  const brandStripRef = useRef(null);
-  const brandStripDragRef = useRef({
-    isDragging: false,
-    startX: 0,
-    scrollLeft: 0
-  });
-
-  const handleBrandStripDragStart = (e) => {
-    brandStripDragRef.current.isDragging = true;
-    brandStripDragRef.current.startX = e.type.includes('mouse') ? e.pageX : e.touches[0].pageX;
-    brandStripDragRef.current.scrollLeft = brandStripRef.current.scrollLeft;
-  };
-
-  const handleBrandStripDragMove = (e) => {
-    if (!brandStripDragRef.current.isDragging) return;
-    const x = e.type.includes('mouse') ? e.pageX : e.touches[0].pageX;
-    const walk = (x - brandStripDragRef.current.startX) * 1.5;
-    brandStripRef.current.scrollLeft = brandStripDragRef.current.scrollLeft - walk;
-  };
-
-  const handleBrandStripDragEnd = () => {
-    brandStripDragRef.current.isDragging = false;
-  };
-
-  // === NEW TESTIMONIAL CAROUSEL STATE ===
-  const N_TESTI = testimonials.length;
-  const [testiActiveIndex, setTestiActiveIndex] = useState(N_TESTI);
-  const [testiIsTransitioning, setTestiIsTransitioning] = useState(true);
-  const [carouselMetrics, setCarouselMetrics] = useState({
-    wrapperWidth: 0,
-    cardWidth: 0,
-    gap: 64,
-    centerOffset: 0
-  });
-
-  const carouselWrapperRef = useRef(null);
-  const firstCardRef = useRef(null);
-
-  useEffect(() => {
-    const updateMetrics = () => {
-      if (carouselWrapperRef.current && firstCardRef.current) {
-        const wrapperW = carouselWrapperRef.current.getBoundingClientRect().width;
-        const cardW = firstCardRef.current.getBoundingClientRect().width;
-        const gap = 64;
-
-        setCarouselMetrics({
-          wrapperWidth: wrapperW,
-          cardWidth: cardW,
-          gap: gap,
-          centerOffset: (wrapperW - cardW) / 2
-        });
-      }
-    };
-
-    const observer = new ResizeObserver(() => {
-      updateMetrics();
-    });
-
-    if (carouselWrapperRef.current) {
-      observer.observe(carouselWrapperRef.current);
-    }
-
-    updateMetrics();
-
-    return () => observer.disconnect();
-  }, []);
-
-  const [testiDragState, setTestiDragState] = useState({
-    isDragging: false,
-    startX: 0,
-    dragOffset: 0
-  });
-
-  const handleTestiDragStart = (e) => {
-    setTestiDragState({
-      isDragging: true,
-      startX: e.type.includes('mouse') ? e.pageX : e.touches[0].pageX,
-      dragOffset: 0
-    });
-  };
-
-  const handleTestiDragMove = (e) => {
-    if (!testiDragState.isDragging) return;
-    const currentX = e.type.includes('mouse') ? e.pageX : e.touches[0].pageX;
-    const diff = currentX - testiDragState.startX;
-    setTestiDragState(prev => ({ ...prev, dragOffset: diff }));
-  };
-
-  const handleTestiDragEnd = () => {
-    if (!testiDragState.isDragging) return;
-
-    if (testiDragState.dragOffset > 50) {
-      setTestiActiveIndex(prev => prev - 1);
-    } else if (testiDragState.dragOffset < -50) {
-      setTestiActiveIndex(prev => prev + 1);
-    }
-
-    setTestiDragState({
-      isDragging: false,
-      startX: 0,
-      dragOffset: 0
-    });
-  };
-
-  const handleTestiTransitionEnd = () => {
-    if (testiActiveIndex < N_TESTI) {
-      setTestiIsTransitioning(false);
-      setTestiActiveIndex(prev => prev + N_TESTI);
-    } else if (testiActiveIndex >= 2 * N_TESTI) {
-      setTestiIsTransitioning(false);
-      setTestiActiveIndex(prev => prev - N_TESTI);
+    } catch {
+      // Ignore
     }
   };
 
-  useEffect(() => {
-    if (!testiIsTransitioning) {
-      const timer = setTimeout(() => setTestiIsTransitioning(true), 50);
-      return () => clearTimeout(timer);
-    }
-  }, [testiIsTransitioning]);
+  const handleHeroPointerCancel = () => {
+    if (!heroIsDraggingRef.current) return;
+    heroIsDraggingRef.current = false;
+    setHeroIsDragging(false);
+    setHeroIsPaused(false);
+    setHeroDragOffset(0);
+  };
 
-  const extendedTestimonials = [
-    ...testimonials,
-    ...testimonials,
-    ...testimonials
-  ];
-  // =======================================
+  // Program Pilihan Slider State (Sync cards track & progress fill)
+  const [programSlideIndex, setProgramSlideIndex] = useState(0);
+  const maxProgramSlideIndex = 2;
+
+  const handleProgramPrev = () => {
+    setProgramSlideIndex((prev) => Math.max(0, prev - 1));
+  };
+
+  const handleProgramNext = () => {
+    setProgramSlideIndex((prev) => Math.min(maxProgramSlideIndex, prev + 1));
+  };
 
 
   // Close search popover when clicking outside
@@ -594,162 +463,210 @@ export default function App() {
     };
   }, [searchOpen]);
 
-  const heroSlides = [
-    { id: 1, img: imageHero, alt: "Sucikan Harta dan Jiwa, Tunaikan Zakat Maal Hanya 2,5%" },
-    { id: 2, img: imageProgram, alt: "Program Baitulmaal Muamalat" },
-    { id: 3, img: imageKegiatan, alt: "Kegiatan Kemanusiaan BMM" },
-    { id: 4, img: imageCard, alt: "Pemberdayaan Ekonomi Ummat" },
-  ];
+  // =========================================================================
+  // BATCH 2 COMPONENT STATE & HANDLERS
+  // =========================================================================
 
-  // Extended slides array for seamless infinite looping: [cloneLast, slide1, slide2, slide3, slide4, cloneFirst]
-  const extendedSlides = [
-    { ...heroSlides[heroSlides.length - 1], id: 'clone-last' },
-    ...heroSlides,
-    { ...heroSlides[0], id: 'clone-first' }
-  ];
+  // Window width tracking for responsive carousel counts
+  const [windowWidth, setWindowWidth] = useState(
+    typeof window !== 'undefined' ? window.innerWidth : 1366
+  );
 
-  // Auto-play slider every 2 seconds
   useEffect(() => {
-    if (heroDragState.isDragging) return;
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
-    const timer = setInterval(() => {
-      setWithTransition(true);
-      setHeroSlideIndex(prev => {
-        let current = prev;
-        if (current >= extendedSlides.length - 1) current = 1;
-        return current + 1;
-      });
-    }, 5000);
+  // --- Group A: Donasi Pilihan Carousel State ---
+  const [donasiCarouselIndex, setDonasiCarouselIndex] = useState(0);
+  const [donasiDragOffset, setDonasiDragOffset] = useState(0);
+  const donasiIsDraggingRef = useRef(false);
+  const donasiDragStartXRef = useRef(0);
+  const donasiTrackRef = useRef(null);
 
-    return () => clearInterval(timer);
-  }, [heroDragState.isDragging, extendedSlides.length]);
+  const visibleDonasiCards = windowWidth < 640 ? 1 : windowWidth < 992 ? 2 : 3;
+  const maxDonasiIndex = Math.max(0, donasiPilihanPrograms.length - visibleDonasiCards);
 
-  // Handle boundary clone reset after transition completion
-  useEffect(() => {
-    if (heroSlideIndex === extendedSlides.length - 1) {
-      const timer = setTimeout(() => {
-        setWithTransition(false);
-        setHeroSlideIndex(1);
-      }, 450);
-      return () => clearTimeout(timer);
-    }
-
-    if (heroSlideIndex === 0) {
-      const timer = setTimeout(() => {
-        setWithTransition(false);
-        setHeroSlideIndex(heroSlides.length);
-      }, 450);
-      return () => clearTimeout(timer);
-    }
-  }, [heroSlideIndex, extendedSlides.length, heroSlides.length]);
-
-  // Re-enable CSS transition after position reset
-  useEffect(() => {
-    if (!withTransition) {
-      const timer = setTimeout(() => {
-        setWithTransition(true);
-      }, 50);
-      return () => clearTimeout(timer);
-    }
-  }, [withTransition]);
-
-  const handleHeroDragStart = (e) => {
-    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-    setHeroDragState({
-      isDragging: true,
-      startX: clientX,
-      dragOffset: 0
-    });
+  const handleDonasiPrev = () => {
+    setDonasiCarouselIndex((prev) => Math.max(0, prev - 1));
   };
 
-  const handleHeroDragMove = (e) => {
-    if (!heroDragState.isDragging) return;
-    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-    const offset = clientX - heroDragState.startX;
-    setHeroDragState(prev => ({
-      ...prev,
-      dragOffset: offset
-    }));
+  const handleDonasiNext = () => {
+    setDonasiCarouselIndex((prev) => Math.min(maxDonasiIndex, prev + 1));
   };
 
-  const handleHeroDragEnd = () => {
-    if (!heroDragState.isDragging) return;
-    const threshold = 40;
-    const { dragOffset } = heroDragState;
-
-    setWithTransition(true);
-
-    if (dragOffset < -threshold) {
-      // Swiped left -> next slide
-      setHeroSlideIndex(prev => {
-        let current = prev;
-        if (current >= extendedSlides.length - 1) current = 1;
-        return current + 1;
-      });
-    } else if (dragOffset > threshold) {
-      // Swiped right -> previous slide
-      setHeroSlideIndex(prev => {
-        let current = prev;
-        if (current <= 0) current = heroSlides.length;
-        return current - 1;
-      });
-    }
-
-    setHeroDragState({
-      isDragging: false,
-      startX: 0,
-      dragOffset: 0
-    });
-  };
-
-  const handleHeroTransitionEnd = () => {
-    if (heroSlideIndex === 0) {
-      setWithTransition(false);
-      setHeroSlideIndex(heroSlides.length);
-    } else if (heroSlideIndex === extendedSlides.length - 1) {
-      setWithTransition(false);
-      setHeroSlideIndex(1);
+  const handleDonasiPointerDown = (e) => {
+    if (e.button !== undefined && e.button !== 0) return;
+    donasiDragStartXRef.current = e.clientX;
+    donasiIsDraggingRef.current = true;
+    setDonasiDragOffset(0);
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId);
+    } catch {
+      // Fallback
     }
   };
 
-  // Active dot index calculation
-  const activeDotIndex = (heroSlideIndex - 1 + heroSlides.length) % heroSlides.length;
+  const handleDonasiPointerMove = (e) => {
+    if (!donasiIsDraggingRef.current) return;
+    const diff = e.clientX - donasiDragStartXRef.current;
+    let offset = diff;
+    if (
+      (donasiCarouselIndex === 0 && diff > 0) ||
+      (donasiCarouselIndex === maxDonasiIndex && diff < 0)
+    ) {
+      offset = diff * 0.35;
+    }
+    setDonasiDragOffset(offset);
+  };
 
-  // Filter donation cards based on selected category (landing page)
-  const filteredDonations = activeDonationCategory === 'semua'
-    ? donationItems
-    : donationItems.filter(item => item.category === activeDonationCategory);
-  // Program Donasi page: filter + limit logic
-  const donasiPageFiltered = donasiPageCategory === 'semua'
-    ? donationItems
-    : donationItems.filter(item => item.category === donasiPageCategory);
-  const donasiPageVisible = donasiShowAll ? donasiPageFiltered : donasiPageFiltered.slice(0, 6);
-  const donasiHasMore = donasiPageFiltered.length > 6 && !donasiShowAll;
+  const handleDonasiPointerUp = (e) => {
+    if (!donasiIsDraggingRef.current) return;
+    donasiIsDraggingRef.current = false;
+    const diff = e.clientX - donasiDragStartXRef.current;
+    const threshold = 45;
 
-  // When switching page, scroll to top and reset states
-  const navigateTo = (page) => {
-    setCurrentPage(page);
-    setDonasiPageCategory('semua');
-    setDonasiShowAll(false);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (diff < -threshold) {
+      setDonasiCarouselIndex((prev) => Math.min(maxDonasiIndex, prev + 1));
+    } else if (diff > threshold) {
+      setDonasiCarouselIndex((prev) => Math.max(0, prev - 1));
+    }
+    setDonasiDragOffset(0);
+
+    try {
+      if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+        e.currentTarget.releasePointerCapture(e.pointerId);
+      }
+    } catch {
+      // Ignore
+    }
+  };
+
+  const handleDonasiPointerCancel = () => {
+    if (!donasiIsDraggingRef.current) return;
+    donasiIsDraggingRef.current = false;
+    setDonasiDragOffset(0);
+  };
+
+  // --- Group B.1: Qurban Tebar Kebahagiaan State ---
+  const [activeQurbanFilter, setActiveQurbanFilter] = useState('semua');
+  const [qurbanCarouselIndex, setQurbanCarouselIndex] = useState(0);
+  const [qurbanDragOffset, setQurbanDragOffset] = useState(0);
+  const qurbanIsDraggingRef = useRef(false);
+  const qurbanDragStartXRef = useRef(0);
+  const qurbanTrackRef = useRef(null);
+
+  const filteredQurban = activeQurbanFilter === 'semua'
+    ? qurbanPackagesData
+    : qurbanPackagesData.filter((item) => item.category === activeQurbanFilter);
+
+  const visibleQurbanCards = windowWidth < 640 ? 1 : windowWidth < 992 ? 2 : 3;
+  const maxQurbanIndex = Math.max(0, filteredQurban.length - visibleQurbanCards);
+
+  const handleQurbanFilterChange = (cat) => {
+    setActiveQurbanFilter(cat);
+    setQurbanCarouselIndex(0);
+    setQurbanDragOffset(0);
+  };
+
+  const handleQurbanPrev = () => {
+    setQurbanCarouselIndex((prev) => Math.max(0, prev - 1));
+  };
+
+  const handleQurbanNext = () => {
+    setQurbanCarouselIndex((prev) => Math.min(maxQurbanIndex, prev + 1));
+  };
+
+  const handleQurbanPointerDown = (e) => {
+    if (e.button !== undefined && e.button !== 0) return;
+    qurbanDragStartXRef.current = e.clientX;
+    qurbanIsDraggingRef.current = true;
+    setQurbanDragOffset(0);
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId);
+    } catch {
+      // Fallback
+    }
+  };
+
+  const handleQurbanPointerMove = (e) => {
+    if (!qurbanIsDraggingRef.current) return;
+    const diff = e.clientX - qurbanDragStartXRef.current;
+    let offset = diff;
+    if (
+      (qurbanCarouselIndex === 0 && diff > 0) ||
+      (qurbanCarouselIndex === maxQurbanIndex && diff < 0)
+    ) {
+      offset = diff * 0.35;
+    }
+    setQurbanDragOffset(offset);
+  };
+
+  const handleQurbanPointerUp = (e) => {
+    if (!qurbanIsDraggingRef.current) return;
+    qurbanIsDraggingRef.current = false;
+    const diff = e.clientX - qurbanDragStartXRef.current;
+    const threshold = 45;
+
+    if (diff < -threshold) {
+      setQurbanCarouselIndex((prev) => Math.min(maxQurbanIndex, prev + 1));
+    } else if (diff > threshold) {
+      setQurbanCarouselIndex((prev) => Math.max(0, prev - 1));
+    }
+    setQurbanDragOffset(0);
+
+    try {
+      if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+        e.currentTarget.releasePointerCapture(e.pointerId);
+      }
+    } catch {
+      // Ignore
+    }
+  };
+
+  const handleQurbanPointerCancel = () => {
+    if (!qurbanIsDraggingRef.current) return;
+    qurbanIsDraggingRef.current = false;
+    setQurbanDragOffset(0);
+  };
+
+  // --- Group C: Donasi Pilihan Grid State ---
+  const [activeGridCategory, setActiveGridCategory] = useState('semua');
+
+  const filteredGridPrograms = activeGridCategory === 'semua'
+    ? donasiPilihanPrograms
+    : donasiPilihanPrograms.filter((item) => item.category === activeGridCategory);
+
+  // Card click navigation handler
+  const handleDonasiCardClick = () => {
+    if (Math.abs(donasiDragOffset) > 8) return;
+    window.location.assign('#donasi-pilihan');
+  };
+
+  const handleQurbanCardClick = () => {
+    if (Math.abs(qurbanDragOffset) > 8) return;
+    window.location.assign('#qurban');
   };
 
   return (
     <div className="app-container">
-      {/* 1. NAVBAR / HEADER (CONTAINED 1200px INNER CONTENT) */}
-      <header className="site-header">
+      {/* 1. NAVBAR / HEADER (CONTAINED 1366px INNER CONTENT) */}
+      <header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
         <div className="header-container">
-          <a href="#" className="header-logo">
-            <img src={logoSm} alt="Baitulmaal Muamalat Logo" />
-          </a>
+          <div className="header-left-group">
+            <a href="#" className="header-logo">
+              <img src={donasiLogoWhite} alt="Baitulmaal Muamalat Logo" />
+            </a>
 
-          <nav className="header-nav desktop-only">
-            <a href="#layanan" className="nav-link">Layanan</a>
-            <a href="#program" className="nav-link">Program</a>
-            <a href="#donasi" className="nav-link">Donasi</a>
-            <a href="#berita" className="nav-link">Media</a>
-            <a href="#tentang" className="nav-link">Tentang Kami</a>
-          </nav>
+            <nav className="header-nav desktop-only">
+              <a href="#program" className="nav-link">Program</a>
+              <a href="#donasi" className="nav-link">Donasi</a>
+              <a href="#kajian" className="nav-link">Kajian</a>
+              <a href="#berita" className="nav-link">Berita</a>
+              <a href="#tentang" className="nav-link">Tentang Kami</a>
+            </nav>
+          </div>
 
           <div className="header-actions-group" ref={searchRef}>
             <button
@@ -763,7 +680,11 @@ export default function App() {
               </svg>
             </button>
 
-            <a href="#masuk" className="btn-masuk desktop-only">Masuk</a>
+            <button className="nav-flag-btn desktop-only" aria-label="Bahasa Indonesia">
+              <img src={iconIndonesia} alt="Bahasa Indonesia" className="nav-flag-icon" />
+            </button>
+
+            <a href="#masuk" className="btn-masuk-outline desktop-only">Masuk</a>
 
             {/* Popover Search Panel */}
             <div className={`search-popover ${searchOpen ? 'open' : ''}`}>
@@ -780,12 +701,23 @@ export default function App() {
             </div>
 
             <button className="mobile-search-btn mobile-only" onClick={() => setSearchOpen(!searchOpen)} aria-label="Cari">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
               </svg>
             </button>
 
+            <button
+              className="mobile-menu-btn mobile-only"
+              onClick={() => setMobileMenuOpen(true)}
+              aria-label="Buka Menu"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
           </div>
         </div>
 
@@ -797,10 +729,10 @@ export default function App() {
               <button className="mobile-menu-close" onClick={() => setMobileMenuOpen(false)} aria-label="Tutup Menu">&times;</button>
             </div>
             <nav className="mobile-nav-links">
-              <a href="#layanan" onClick={() => setMobileMenuOpen(false)}>Layanan</a>
               <a href="#program" onClick={() => setMobileMenuOpen(false)}>Program</a>
               <a href="#donasi" onClick={() => setMobileMenuOpen(false)}>Donasi</a>
-              <a href="#berita" onClick={() => setMobileMenuOpen(false)}>Media</a>
+              <a href="#kajian" onClick={() => setMobileMenuOpen(false)}>Kajian</a>
+              <a href="#berita" onClick={() => setMobileMenuOpen(false)}>Berita</a>
               <a href="#tentang" onClick={() => setMobileMenuOpen(false)}>Tentang Kami</a>
               <a href="#masuk" className="btn btn-outline" style={{ marginTop: '16px', justifyContent: 'center' }} onClick={() => setMobileMenuOpen(false)}>Masuk</a>
             </nav>
@@ -809,635 +741,839 @@ export default function App() {
       </header>
 
       <main>
-        {/* 2. HERO CAROUSEL (FULL WIDTH NATIVE 1346:757 ASPECT RATIO) */}
-        <section className="hero-section">
-          <div
-            className={`hero-slider-container ${heroDragState.isDragging ? 'dragging' : ''}`}
-            onMouseDown={handleHeroDragStart}
-            onMouseMove={handleHeroDragMove}
-            onMouseUp={handleHeroDragEnd}
-            onMouseLeave={handleHeroDragEnd}
-            onTouchStart={handleHeroDragStart}
-            onTouchMove={handleHeroDragMove}
-            onTouchEnd={handleHeroDragEnd}
-          >
+        {/* 2. HERO SECTION — DONASI LANDINGPAGE */}
+        <section
+          className={`donasi-hero-section ${heroIsDragging ? 'is-dragging' : ''}`}
+          id="hero"
+          onMouseEnter={() => setHeroIsPaused(true)}
+          onMouseLeave={() => {
+            if (!heroIsDraggingRef.current) setHeroIsPaused(false);
+          }}
+          onPointerDown={handleHeroPointerDown}
+          onPointerMove={handleHeroPointerMove}
+          onPointerUp={handleHeroPointerUp}
+          onPointerCancel={handleHeroPointerCancel}
+        >
+          <div className="donasi-hero-bg-wrapper">
             <div
-              className="hero-slide-track"
-              onTransitionEnd={handleHeroTransitionEnd}
+              className="donasi-hero-track"
               style={{
-                transform: `translateX(calc(-${heroSlideIndex * 100}% + ${heroDragState.dragOffset}px))`,
-                transition: heroDragState.isDragging || !withTransition ? 'none' : 'transform 0.45s cubic-bezier(0.25, 1, 0.5, 1)'
+                transform: `translateX(calc(-${heroActiveIndex * 100}% + ${heroDragOffset}px))`,
+                transition: heroIsDragging ? 'none' : 'transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)',
               }}
             >
-              {extendedSlides.map((slide, idx) => (
-                <div className="hero-slide-item" key={`${slide.id}-${idx}`}>
-                  <img src={slide.img} alt={slide.alt} draggable={false} />
+              {heroSlides.map((slide, idx) => (
+                <div key={slide.id} className="donasi-hero-slide-item">
+                  <img
+                    src={slide.image}
+                    alt={slide.alt}
+                    className="donasi-hero-bg-img"
+                    draggable="false"
+                    fetchPriority={idx === 0 ? "high" : "auto"}
+                  />
                 </div>
               ))}
             </div>
-
-            {/* Hero Overlay Carousel Indicators */}
-            <div className="hero-indicators-overlay" onMouseDown={(e) => e.stopPropagation()} onTouchStart={(e) => e.stopPropagation()}>
-              {heroSlides.map((slide, idx) => (
-                <button
-                  key={slide.id}
-                  className={`hero-dot ${activeDotIndex === idx ? 'active' : ''}`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setWithTransition(true);
-                    setHeroSlideIndex(idx + 1);
-                  }}
-                  aria-label={`Go to slide ${idx + 1}`}
-                />
-              ))}
-            </div>
+            <div className="donasi-hero-gradient-overlay" />
           </div>
-        </section>
 
-        {/* 3. BRAND / PARTNER STRIP (FULL WIDTH HORIZONTAL ROW) */}
-        <section className="brand-strip-section">
+          <div className="visually-hidden">
+            <h1>Sucikan Harta dan Jiwa</h1>
+            <p>Tunaikan Zakat Maal Hanya 2,5%</p>
+            <blockquote>
+              &ldquo;Ambillah zakat dari sebagian harta mereka, dengan zakat itu kamu membersihkan dan menyucikan mereka...&rdquo;
+              <cite>QS. At Taubah: 103</cite>
+            </blockquote>
+          </div>
+
+          {/* Hero Bottom Notch with Carousel Indicators */}
           <div
-            className="brand-strip-container"
-            ref={brandStripRef}
-            onMouseLeave={handleBrandStripDragEnd}
-            onMouseDown={handleBrandStripDragStart}
-            onMouseMove={handleBrandStripDragMove}
-            onMouseUp={handleBrandStripDragEnd}
-            onTouchStart={handleBrandStripDragStart}
-            onTouchMove={handleBrandStripDragMove}
-            onTouchEnd={handleBrandStripDragEnd}
+            className="donasi-hero-notch"
+            onPointerDown={(e) => e.stopPropagation()}
+            onClick={(e) => e.stopPropagation()}
           >
-            {[...partnerLogos, ...partnerLogos, ...partnerLogos, ...partnerLogos].map((partner, idx) => (
-              <div className="brand-strip-item" key={`${partner.id}-${idx}`}>
-                <a href="#" onClick={(e) => e.preventDefault()} draggable={false}>
-                  <img src={partner.src} alt={partner.name} draggable={false} />
-                </a>
-              </div>
+            {heroSlides.map((_, idx) => (
+              <button
+                key={idx}
+                className={idx === heroActiveIndex ? 'donasi-dot-pill active' : 'donasi-dot-circle'}
+                onClick={() => setHeroActiveIndex(idx)}
+                aria-label={`Slide ${idx + 1}${idx === heroActiveIndex ? ' (Aktif)' : ''}`}
+              />
             ))}
           </div>
         </section>
 
-        {/* 4. PROGRAM BAITULMAAL MUAMALAT */}
-        <section className="program-section section-padding" id="program">
-          <img src={decorationLeft} alt="" className="decoration-left-bg" />
+        {/* 3. IMPACT STATS SECTION */}
+        <section className="impact-stats-section" aria-label="Statistik Dampak Kebaikan">
+          <div className="impact-stats-grid">
+            <div className="impact-stat-item">
+              <div className="impact-stat-icon-wrapper">
+                <img src={iconPenerima} alt="" aria-hidden="true" />
+              </div>
+              <div className="impact-stat-info">
+                <span className="impact-stat-label">Penerima Manfaat</span>
+                <span className="impact-stat-value">480 Penerima</span>
+              </div>
+            </div>
+
+            <div className="impact-stat-item">
+              <div className="impact-stat-icon-wrapper">
+                <img src={iconDonatur} alt="" aria-hidden="true" />
+              </div>
+              <div className="impact-stat-info">
+                <span className="impact-stat-label">Total Donatur</span>
+                <span className="impact-stat-value">320 Donatur</span>
+              </div>
+            </div>
+
+            <div className="impact-stat-item">
+              <div className="impact-stat-icon-wrapper">
+                <img src={iconProgram} alt="" aria-hidden="true" />
+              </div>
+              <div className="impact-stat-info">
+                <span className="impact-stat-label">Total Program</span>
+                <span className="impact-stat-value">123 Program</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4. PROGRAM PILIHAN SECTION */}
+        <section className="program-pilihan-section" id="program">
+          <img src={decorationKiri} alt="" className="program-pilihan-decor-left" aria-hidden="true" />
           <div className="container">
             <div className="section-header">
-
-              <h2 className="section-title">Program <span className="text-gradient-primary">Baitulmaal Muamalat</span></h2>
+              <div className="salurkan-tag" style={{ justifyContent: 'center' }}>
+                <span>✦</span> PROGRAM
+              </div>
+              <h2 className="section-title">
+                Program Pilihan <br />
+                <span className="text-gradient-primary">Baitulmaal Muamalat</span>
+              </h2>
               <p className="section-subtitle">
                 Beragam program kebaikan untuk memberdayakan masyarakat dan menghadirkan manfaat yang berkelanjutan bagi umat.
               </p>
             </div>
 
-            <div className="program-grid">
-              {programItems.map((item) => (
-                <div className="program-card" key={item.id}>
-                  <img src={item.img} alt={item.title} className="program-card-img" />
-                  <div className="program-card-overlay">
-                    <h3 className="program-card-title">{item.title}</h3>
-                    <p className="program-card-desc">{item.desc}</p>
-                    <a href="#program" className="program-card-link">Lihat Program &rsaquo;</a>
+            <div className="program-collage-wrapper">
+              <div className="program-collage-row-top">
+                <div className="program-collage-card">
+                  <img src={donasiProgramImg} alt="Sosial Dakwah & Pendidikan" className="program-collage-card-img" />
+                  <div className="program-collage-card-overlay">
+                    <h3 className="program-card-title-lg">Sosial Dakwah &amp; Pendidikan</h3>
+                    <p className="program-card-desc-lg">
+                      Memastikan pendidikan yang inklusif dan berkualitas setara, serta mendukung kesempatan belajar seumur hidup bagi santri dan anak dhuafa.
+                    </p>
+                  </div>
+                  <div className="program-collage-card-badge-btn" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
                   </div>
                 </div>
-              ))}
-            </div>
 
-            <div className="center-btn-wrapper">
-              <a href="#program" className="btn btn-primary">Lihat Semua Program &rarr;</a>
-            </div>
-          </div>
-        </section>
+                <div className="program-collage-card">
+                  <img src={imageKegiatan} alt="Kemanusiaan & Bencana" className="program-collage-card-img" />
+                  <div className="program-collage-card-overlay">
+                    <h3 className="program-card-title-lg">Kemanusiaan &amp; Bencana</h3>
+                    <p className="program-card-desc-lg">
+                      Respon tanggap darurat, evakuasi, dan distribusi bantuan logistik medis bagi penyintas bencana di seluruh pelosok negeri.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-        {/* 5. LAYANAN PRIORITAS UNTUK SAHABAT BMM */}
-        <section className="services-section section-padding" id="layanan">
-          <div className="container services-layout">
-            <div className="services-info">
+              <div className="program-collage-row-bottom">
+                <div className="program-collage-card">
+                  <img src={imageCard} alt="Pemberdayaan Ekonomi Ummat" className="program-collage-card-img" />
+                  <div className="program-collage-card-overlay">
+                    <h3 className="program-card-title-lg">Pemberdayaan Ekonomi Ummat</h3>
+                    <p className="program-card-desc-lg">
+                      Bantuan modal usaha mikro, pelatihan kejuruan, dan pendampingan kemandirian bagi keluarga prasejahtera.
+                    </p>
+                  </div>
+                </div>
 
-              <h2 className="section-title">
-                Layanan <br className="desktop-only" />
-                <span className="text-gradient-primary">Prioritas</span> untuk <br className="desktop-only" />
-                <span className="text-gradient-primary">Sahabat BMM</span>
-              </h2>
-              <p className="section-subtitle">
-                Dapatkan akses layanan yang lebih mudah, cepat, dan personal sebagai bagian dari Sahabat BMM yang turut menguatkan kebermanfaatan bagi umat.
-              </p>
+                <div className="program-collage-card">
+                  <img src={heroSlide2Img} alt="Kemitraan Kebaikan" className="program-collage-card-img" />
+                  <div className="program-collage-card-overlay">
+                    <h3 className="program-card-title-lg">Kemitraan Kebaikan</h3>
+                    <p className="program-card-desc-lg">
+                      Kolaborasi strategis dengan berbagai institusi dan korporasi guna memperluas jangkauan manfaat program sosial.
+                    </p>
+                  </div>
+                </div>
 
-              <div className="services-badges">
-                <span className="service-badge">Mudah</span>
-                <span className="service-badge">Dekat</span>
-                <span className="service-badge">Berdampak</span>
+                <div className="program-collage-card">
+                  <img src={imageProgram} alt="Advokasi & Dakwah" className="program-collage-card-img" />
+                  <div className="program-collage-card-overlay">
+                    <h3 className="program-card-title-lg">Advokasi &amp; Dakwah</h3>
+                    <p className="program-card-desc-lg">
+                      Syiar literasi zakat dan penguatan dakwah Islamiyah di daerah terdepan, terluar, dan tertinggal (3T).
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="services-grid">
-              {serviceItems.map((service) => (
-                <a
-                  href="#layanan"
-                  className={`service-item ${activeServiceId === service.id ? 'active' : ''}`}
-                  key={service.id}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setActiveServiceId(service.id);
+            <div className="program-slider-nav-bar">
+              <button
+                className="program-nav-btn"
+                onClick={handleProgramPrev}
+                disabled={programSlideIndex === 0}
+                aria-label="Sebelumnya"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="19" y1="12" x2="5" y2="12"></line>
+                  <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+              </button>
+              <div className="program-nav-track">
+                <div
+                  className="program-nav-track-fill"
+                  style={{
+                    left: `${programSlideIndex === 0 ? 0 : programSlideIndex === 1 ? 41 : 81.5}%`
                   }}
-                >
-                  <div className="service-item-header">
-                    <div className="service-icon-wrapper">
-                      <img src={service.icon} alt={service.title} />
-                    </div>
-                    <h3 className="service-title">{service.title}</h3>
-                  </div>
-                  <p className="service-desc">{service.desc}</p>
-                </a>
-              ))}
+                />
+              </div>
+              <button
+                className="program-nav-btn"
+                onClick={handleProgramNext}
+                disabled={programSlideIndex === maxProgramSlideIndex}
+                aria-label="Selanjutnya"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+
+            <div className="program-center-btn-wrapper">
+              <a href="#program" className="btn-lihat-semua">
+                <span className="btn-circle-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+                <span>Lihat Semua</span>
+              </a>
             </div>
           </div>
         </section>
 
-        {/* 6. PROGRAM DONASI TERBARU */}
-        <section className="donation-section section-padding" id="donasi">
-          <img src={decorationRight} alt="" className="decoration-right-bg" />
+        {/* 5. SALURKAN KEBAIKAN BANNER SECTION */}
+        <section className="salurkan-section" id="salurkan">
+          <div className="container">
+            <div className="salurkan-banner">
+              <div className="salurkan-illustration-col">
+                <div className="salurkan-card-frame">
+                  <img src={bgSalurkan} alt="" className="salurkan-frame-bg" aria-hidden="true" />
+                  <img src={imageSalurkan} alt="Ilustrasi Salurkan Kebaikan" className="salurkan-main-img" />
+                </div>
+              </div>
+
+              <div className="salurkan-content-col">
+                <div className="salurkan-tag">
+                  <span>✦</span> SALURKAN KEBAIKAN
+                </div>
+                <h2 className="salurkan-title">
+                  Yuk Mulai <br />
+                  Buat Kebaikan
+                </h2>
+                <p className="salurkan-subtitle">
+                  Bersama Baitulmaal Muamalat (BMM) berbagi <br className="salurkan-break" />
+                  kebaikan dan sebar senyuman.
+                </p>
+
+                <div className="salurkan-actions">
+                  <a href="#donasi" className="salurkan-action-item">
+                    <div className="salurkan-action-icon">
+                      <img src={iconZakat3D} alt="Zakat" />
+                    </div>
+                    <span className="salurkan-action-label">Zakat</span>
+                  </a>
+
+                  <a href="#donasi" className="salurkan-action-item">
+                    <div className="salurkan-action-icon">
+                      <img src={iconDonate3D} alt="Infaq" />
+                    </div>
+                    <span className="salurkan-action-label">Infaq</span>
+                  </a>
+
+                  <a href="#donasi" className="salurkan-action-item">
+                    <div className="salurkan-action-icon">
+                      <img src={iconDonate3D} alt="Sedekah" />
+                    </div>
+                    <span className="salurkan-action-label">Sedekah</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ========================================================================= */}
+        {/* BATCH 2 - BAGIAN A: DONASI PILIHAN CAROUSEL */}
+        {/* ========================================================================= */}
+        <section className="donasi-carousel-section" id="donasi-pilihan">
+          <img src={decorationKanan} alt="" className="donasi-decor-right" aria-hidden="true" />
 
           <div className="container">
-            <div className="section-header">
-
-              <h2 className="section-title">Program <span className="text-gradient-primary">Donasi</span> Terbaru</h2>
-              <p className="section-subtitle">
-                Salurkan infaq dan zakat Anda untuk membantu sesama melalui program pilihan terkini.
+            <div className="batch2-section-header">
+              <div className="batch2-section-tag">
+                <span>✦</span> DONASI PILIHAN
+              </div>
+              <h2 className="batch2-section-title">
+                Donasi Pilihan <br />
+                <span className="text-purple">Baitulmaal Muamalat</span>
+              </h2>
+              <p className="batch2-section-subtitle">
+                Pilih dan salurkan dukungan Anda melalui berbagai program terbaik yang menghadirkan banyak manfaat.
               </p>
             </div>
 
-            <div className="donation-categories-nav">
-              {programCategories.map((cat) => (
-                <button
-                  key={cat.id}
-                  className={`donation-category-pill ${activeDonationCategory === cat.id ? 'active' : ''}`}
-                  onClick={() => setActiveDonationCategory(cat.id)}
-                >
-                  <img src={cat.icon} alt={cat.label} />
-                  <span>{cat.label}</span>
-                </button>
-              ))}
-            </div>
-
-            <div className="donation-grid">
-              {filteredDonations.map((item) => {
-                const progressPercent = getProgressPercent(item);
-                return (
+            <div
+              className="donasi-carousel-viewport"
+              onPointerDown={handleDonasiPointerDown}
+              onPointerMove={handleDonasiPointerMove}
+              onPointerUp={handleDonasiPointerUp}
+              onPointerCancel={handleDonasiPointerCancel}
+            >
+              <div
+                className="donasi-carousel-track"
+                ref={donasiTrackRef}
+                style={{
+                  transform: `translateX(calc(-${donasiCarouselIndex} * (var(--donasi-card-width) + var(--donasi-card-gap)) + ${donasiDragOffset}px))`
+                }}
+              >
+                {donasiPilihanPrograms.map((item) => (
                   <div
-                    className="donation-card"
+                    className="bmm-donasi-card"
                     key={item.id}
-                    onClick={() => { window.location.hash = 'donasi'; }}
+                    onClick={() => handleDonasiCardClick(item)}
                     role="button"
                     tabIndex={0}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        window.location.hash = 'donasi';
+                        handleDonasiCardClick(item);
                       }
                     }}
                   >
-                    <div className="donation-card-media">
-                      <img src={item.img} alt={item.title} />
+                    <div className="bmm-donasi-card-media">
+                      <img src={item.img} alt={item.title} className="bmm-donasi-card-img" />
                     </div>
-                    <div className="donation-card-body">
-                      <h3 className="donation-card-title">{item.title}</h3>
-
-                      <div className="donation-stats">
-                        <div className="donation-stat-left">
-                          <span className="stat-label">Dana Terkumpul</span>
-                          <span className="stat-value">{item.collected}</span>
+                    <div className="bmm-donasi-card-body">
+                      <h3 className="bmm-donasi-card-title">{item.title}</h3>
+                      <div className="bmm-donasi-card-stats">
+                        <div className="bmm-donasi-stat-left">
+                          <span className="bmm-donasi-stat-label">Dana Terkumpul</span>
+                          <span className="bmm-donasi-stat-val">{item.collected}</span>
                         </div>
-                        <div className="donation-stat-right">
-                          <span className="stat-label">Sisa Hari</span>
-                          <span className="stat-value"><img src={timeIcon} alt="time" className="time-icon" /> {item.sisaHari || 168} Hari</span>
+                        <div className="bmm-donasi-stat-right">
+                          <span className="bmm-donasi-stat-label">Sisa Hari</span>
+                          <span className="bmm-donasi-stat-val">
+                            <img src={iconDonasiTime} alt="" className="bmm-donasi-time-icon" aria-hidden="true" />
+                            {item.sisaHari} Hari
+                          </span>
                         </div>
                       </div>
-
-                      <div
-                        className={`donation-progress-wrapper ${activeProgressId === item.id ? 'active-tooltip' : ''}`}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setActiveProgressId(prev => prev === item.id ? null : item.id);
-                        }}
-                      >
-                        <div className="donation-progress-bar">
-                          <div className="donation-progress-fill" style={{ width: progressPercent }}>
-                            <div className="progress-thumb"></div>
-                            <div className="progress-tooltip">{progressPercent}</div>
+                      <div className="bmm-donasi-progress-bar">
+                        <div
+                          className="bmm-donasi-progress-fill"
+                          style={{ width: `${Math.min(100, Math.max(0, item.progressValue))}%` }}
+                        >
+                          <span className="bmm-donasi-progress-thumb" aria-hidden="true"></span>
+                          <div className="bmm-donasi-progress-badge">
+                            {item.progress}
                           </div>
                         </div>
                       </div>
-
-                      <a
-                        href="#donasi"
-                        className="btn btn-primary"
-                        style={{ width: '100%', backgroundColor: '#4A007D', color: '#fff', borderRadius: '8px', padding: '12px', border: 'none' }}
-                        onClick={(e) => { e.stopPropagation(); }}
-                      >
-                        Bantu Sekarang
-                      </a>
                     </div>
                   </div>
-                );
-              })}
+                ))}
+              </div>
             </div>
 
-            <div className="center-btn-wrapper">
-              <a href="#donasi" className="btn btn-outline">Lihat Semua Donasi &rarr;</a>
-            </div>
-          </div>
-        </section>
-
-        {/* 7. KATA MEREKA */}
-        <section className="kata-mereka-section" id="kata-mereka">
-
-          <div className="kata-mereka-purple-bg"></div>
-
-          <div className="kata-mereka-watermark">
-            <img src={watermarkImg} alt="Kata Mereka Watermark" className="watermark-img" />
-          </div>
-
-          <div className="container relative z-10" style={{ position: 'relative', zIndex: 10, maxWidth: '1320px', paddingTop: '0px' }}>
-            <div className="section-header text-center" style={{ marginBottom: '24px' }}>
-
-              <h2 className="section-title" style={{ color: '#ffffff', marginTop: '8px', marginBottom: '8px' }}>Kata Mereka</h2>
-              <p className="section-subtitle" style={{ color: 'rgba(255, 255, 255, 0.9)', opacity: 1 }}>
-                Pandangan para tokoh tentang ikhtiar dan dampak yang kami hadirkan.
-              </p>
-            </div>
-          </div>
-
-
-          <div className="kata-mereka-carousel-wrapper"
-            ref={carouselWrapperRef}
-            style={{ position: 'relative', zIndex: 10, maxWidth: '1270px', margin: '0 auto', cursor: testiDragState.isDragging ? 'grabbing' : 'grab' }}
-            onMouseDown={handleTestiDragStart}
-            onMouseMove={handleTestiDragMove}
-            onMouseUp={handleTestiDragEnd}
-            onMouseLeave={handleTestiDragEnd}
-            onTouchStart={handleTestiDragStart}
-            onTouchMove={handleTestiDragMove}
-            onTouchEnd={handleTestiDragEnd}
-          >
-            <div
-              className="kata-mereka-carousel"
-              onTransitionEnd={handleTestiTransitionEnd}
-              style={{
-                transform: `translateX(${carouselMetrics.centerOffset - (testiActiveIndex * (carouselMetrics.cardWidth + carouselMetrics.gap)) + testiDragState.dragOffset}px)`,
-                transition: testiIsTransitioning && !testiDragState.isDragging ? 'transform 0.5s ease' : 'none'
-              }}
-            >
-              {extendedTestimonials.map((testi, idx) => (
+            <div className="batch2-slider-controls">
+              <button
+                className="batch2-nav-btn"
+                onClick={handleDonasiPrev}
+                disabled={donasiCarouselIndex === 0}
+                aria-label="Sebelumnya"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="19" y1="12" x2="5" y2="12"></line>
+                  <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+              </button>
+              <div className="batch2-nav-track">
                 <div
-                  className={`testimonial-card-white ${testiActiveIndex === idx ? 'active' : ''}`}
-                  key={`testi-${testi.id}-${idx}`}
-                  ref={idx === 0 ? firstCardRef : null}
-                >
-                  <div className="testimonial-image-col">
-                    <img src={testi.avatar} alt={testi.name} className="testimonial-avatar-large" />
-                  </div>
-                  <div className="testimonial-content-col">
-                    <img src={iconQuote} alt="Quote" className="quote-icon-img" />
-                    <h4 className="testimonial-author-name">{testi.name}</h4>
-                    <span className="testimonial-author-role">{testi.role}</span>
-                    <p className="testimonial-text">&ldquo;{testi.quote}&rdquo;</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="container" style={{ position: 'relative', zIndex: 10, maxWidth: '1320px', paddingBottom: '20px' }}>
-            <div className="kata-mereka-controls" style={{ marginTop: '40px' }}>
-              <button
-                className="nav-circle-btn"
-                aria-label="Previous"
-                onClick={() => setTestiActiveIndex(testiActiveIndex - 1)}
-              >
-                &larr;
-              </button>
-              <div className="slider-progress-bar">
-                <div className="slider-progress-fill" style={{ width: `${(((testiActiveIndex % testimonials.length) + 1) / testimonials.length) * 100}%` }}></div>
+                  className="batch2-nav-track-fill"
+                  style={{
+                    width: `${maxDonasiIndex === 0 ? 100 : Math.max(18, 100 / (maxDonasiIndex + 1))}%`,
+                    left: `${maxDonasiIndex === 0 ? 0 : (donasiCarouselIndex / maxDonasiIndex) * (100 - (maxDonasiIndex === 0 ? 100 : Math.max(18, 100 / (maxDonasiIndex + 1))))}%`
+                  }}
+                />
               </div>
               <button
-                className="nav-circle-btn"
-                aria-label="Next"
-                onClick={() => setTestiActiveIndex(testiActiveIndex + 1)}
+                className="batch2-nav-btn"
+                onClick={handleDonasiNext}
+                disabled={donasiCarouselIndex === maxDonasiIndex}
+                aria-label="Selanjutnya"
               >
-                &rarr;
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
               </button>
+            </div>
+
+            <div className="batch2-center-btn-wrapper">
+              <a href="#donasi" className="btn-lihat-semua">
+                <span className="btn-circle-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+                <span>Lihat Semua</span>
+              </a>
             </div>
           </div>
         </section>
 
-        {/* 8. KEGIATAN TERBARU */}
-        <section className="activity-section section-padding" id="kegiatan">
+        {/* ========================================================================= */}
+        {/* BATCH 2 - BAGIAN B.1: QURBAN TEBAR KEBAHAGIAAN */}
+        {/* ========================================================================= */}
+        <section className="qurban-tebar-section" id="qurban">
+          <img src={decorationKiri} alt="" className="qurban-decor-left" aria-hidden="true" />
+
           <div className="container">
-            <div className="section-header-flex">
-              <div>
-
-                <h2 className="section-title">Kegiatan Terbaru</h2>
+            <div className="batch2-section-header">
+              <div className="batch2-section-tag">
+                <span>✦</span> QURBAN TEBAR KEBAHAGIAAN
               </div>
-              <a href="#kegiatan" className="btn btn-outline desktop-only">Lihat Semua &rarr;</a>
-            </div>
+              <h2 className="batch2-section-title">
+                Tunaikan Qurban, <br />
+                <span className="text-purple">Tebarkan Kebahagiaan</span>
+              </h2>
+              <p className="batch2-section-subtitle">
+                Jadikan momen Idul Adha lebih bermakna dengan berbagi daging qurban kepada saudara-saudara kita yang membutuhkan. Salurkan qurban melalui lembaga terpercaya agar manfaatnya menjangkau lebih banyak sesama.
+              </p>
 
-            <div className="activity-grid">
-              {activityItems.map((item) => (
-                <div className="activity-card" key={item.id}>
-                  <div className="activity-card-media">
-                    <img src={item.img} alt={item.title} />
-                  </div>
-                  <div className="activity-card-body">
-                    <h3 className="activity-card-title">{item.title}</h3>
-                    <div className="activity-meta-list">
-                      <div className="activity-meta-item">
-                        <img src={iconCalendar} alt="Tanggal" />
-                        <span>{item.date}</span>
-                      </div>
-                      <div className="activity-meta-item">
-                        <img src={iconLocation} alt="Lokasi" />
-                        <span>{item.location}</span>
-                      </div>
-                    </div>
-                    <a href="#kegiatan" className="activity-read-more">Selengkapnya &gt;</a>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="center-btn-wrapper mobile-only" style={{ marginTop: '24px' }}>
-              <a href="#kegiatan" className="btn btn-outline">Lihat Semua &rarr;</a>
-            </div>
-          </div>
-        </section>
-
-        {/* 9. TENTANG BAITULMAAL MUAMALAT (BMM) */}
-        <section className="about-section section-padding" id="tentang">
-
-          <div className="container about-layout">
-            <div className="about-left-col" style={{ minWidth: 0, width: '100%' }}>
-              <div className="about-text-wrapper">
-                <h2 className="about-content-title">Baitulmaal Muamalat (BMM)</h2>
-                <p className="about-content-text">
-                  Baitulmaal Muamalat (BMM) adalah Lembaga Amil Zakat Nasional (LAZNAS) yang berkhidmat mendayagunakan dana zakat, infaq, sedekah, dan wakaf untuk mengangkat martabat mustahik menjadi muzakki melalui berbagai program pemberdayaan yang terukur dan akuntabel.
-                </p>
+              {/* Filter Tabs */}
+              <div className="qurban-filter-pill-box">
+                <button
+                  className={`qurban-filter-btn ${activeQurbanFilter === 'semua' ? 'active' : ''}`}
+                  onClick={() => handleQurbanFilterChange('semua')}
+                >
+                  <img src={iconElementPlus} alt="" className="qurban-filter-icon" />
+                  <span>Semua</span>
+                </button>
+                <button
+                  className={`qurban-filter-btn ${activeQurbanFilter === 'sapi' ? 'active' : ''}`}
+                  onClick={() => handleQurbanFilterChange('sapi')}
+                >
+                  <img src={iconCow} alt="" className="qurban-filter-icon" />
+                  <span>Sapi</span>
+                </button>
+                <button
+                  className={`qurban-filter-btn ${activeQurbanFilter === 'kambing' ? 'active' : ''}`}
+                  onClick={() => handleQurbanFilterChange('kambing')}
+                >
+                  <img src={iconGoat} alt="" className="qurban-filter-icon" />
+                  <span>Kambing</span>
+                </button>
               </div>
+            </div>
 
-              <div className="about-awards-wrapper">
-                <div className="about-awards-header mobile-only" style={{ textAlign: 'center', marginBottom: '16px' }}>
-                  <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#333' }}>PENGHARGAAN</h3>
-                </div>
-                <div className="about-awards-carousel-viewport" style={{ overflow: 'hidden', width: '100%', position: 'relative' }}>
+            {filteredQurban.length > 0 ? (
+              <>
+                <div
+                  className="donasi-carousel-viewport"
+                  onPointerDown={handleQurbanPointerDown}
+                  onPointerMove={handleQurbanPointerMove}
+                  onPointerUp={handleQurbanPointerUp}
+                  onPointerCancel={handleQurbanPointerCancel}
+                >
                   <div
-                    className={`about-badges-grid ${awardDragState.isDragging ? 'dragging' : ''}`}
-                    onMouseDown={handleAwardDragStart}
-                    onMouseMove={handleAwardDragMove}
-                    onMouseUp={handleAwardDragEnd}
-                    onMouseLeave={handleAwardDragEnd}
-                    onTouchStart={handleAwardDragStart}
-                    onTouchMove={handleAwardDragMove}
-                    onTouchEnd={handleAwardDragEnd}
+                    className="donasi-carousel-track"
+                    ref={qurbanTrackRef}
                     style={{
-                      display: 'flex',
-                      flexWrap: 'nowrap',
-                      gap: '16px',
-                      width: '100%',
-                      transform: `translateX(calc(-${safeAwardActiveIndex} * (calc((100% - ${(awardVisibleItems - 1) * 16}px) / ${awardVisibleItems}) + 16px) + ${awardDragState.dragOffset}px))`,
-                      transition: awardDragState.isDragging ? 'none' : 'transform 0.4s cubic-bezier(0.25, 1, 0.5, 1)'
+                      transform: `translateX(calc(-${qurbanCarouselIndex} * (var(--donasi-card-width) + var(--donasi-card-gap)) + ${qurbanDragOffset}px))`
                     }}
                   >
-                    {awardsData.map((award) => (
+                    {filteredQurban.map((item) => (
                       <div
-                        className="about-badge-card clickable-award"
-                        key={award.id}
-                        onClick={(e) => {
-                          if (Math.abs(awardDragState.dragOffset) < 10) {
-                            setActiveAward(award);
-                          } else {
+                        className="qurban-card"
+                        key={item.id}
+                        onClick={handleQurbanCardClick}
+                        role="button"
+                        tabIndex={0}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
                             e.preventDefault();
+                            handleQurbanCardClick();
                           }
                         }}
-                        style={{
-                          flex: `0 0 calc((100% - ${(awardVisibleItems - 1) * 16}px) / ${awardVisibleItems})`,
-                          boxSizing: 'border-box'
-                        }}
                       >
-                        <img src={award.image} alt={award.title} draggable="false" />
-                        <span className="about-badge-title" style={{
-                          display: '-webkit-box',
-                          WebkitLineClamp: 4,
-                          WebkitBoxOrient: 'vertical',
-                          overflow: 'hidden'
-                        }}>{award.title}</span>
+                        <div className="qurban-card-media">
+                          <img src={item.img} alt={item.title} className="qurban-card-img" />
+                        </div>
+                        <div className="qurban-card-body">
+                          <h3 className="qurban-card-title">{item.title}</h3>
+
+                          <div className="qurban-price-block">
+                            <div className="qurban-price-row-top">
+                              <span>Mulai Dari</span>
+                              <span className="qurban-old-price">{item.originalPrice}</span>
+                              <span className="qurban-discount-badge">{item.discount}</span>
+                            </div>
+                            <div className="qurban-current-price">{item.price}</div>
+                          </div>
+
+                          <div className="qurban-meta-block">
+                            <div className="qurban-meta-col">
+                              <span className="qurban-meta-label">Lokasi Qurban</span>
+                              <span className="qurban-meta-val">
+                                <img src={iconGeoLocation} alt="" className="qurban-meta-icon" />
+                                {item.location}
+                              </span>
+                            </div>
+                            <div className="qurban-meta-col text-right">
+                              <span className="qurban-meta-label">Jumlah Pequrban</span>
+                              <span className="qurban-meta-val">
+                                <img src={iconDonaturQurban} alt="" className="qurban-meta-icon" />
+                                {item.donors}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     ))}
                   </div>
                 </div>
 
-                <div className="about-awards-controls">
+                <div className="batch2-slider-controls">
                   <button
-                    className="award-control-btn prev"
-                    onClick={handleAwardPrev}
-                    disabled={safeAwardActiveIndex === 0}
-                    aria-label="Previous awards"
+                    className="batch2-nav-btn"
+                    onClick={handleQurbanPrev}
+                    disabled={qurbanCarouselIndex === 0}
+                    aria-label="Sebelumnya"
                   >
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="19" y1="12" x2="5" y2="12"></line>
+                      <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
                   </button>
+                  <div className="batch2-nav-track">
+                    <div
+                      className="batch2-nav-track-fill"
+                      style={{
+                        width: `${maxQurbanIndex === 0 ? 100 : Math.max(18, 100 / (maxQurbanIndex + 1))}%`,
+                        left: `${maxQurbanIndex === 0 ? 0 : (qurbanCarouselIndex / maxQurbanIndex) * (100 - (maxQurbanIndex === 0 ? 100 : Math.max(18, 100 / (maxQurbanIndex + 1))))}%`
+                      }}
+                    />
+                  </div>
                   <button
-                    className="award-control-btn next"
-                    onClick={handleAwardNext}
-                    disabled={safeAwardActiveIndex >= maxAwardIndex}
-                    aria-label="Next awards"
+                    className="batch2-nav-btn"
+                    onClick={handleQurbanNext}
+                    disabled={qurbanCarouselIndex === maxQurbanIndex}
+                    aria-label="Selanjutnya"
                   >
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
                   </button>
                 </div>
+              </>
+            ) : (
+              <div className="qurban-empty-state">
+                <p>Belum ada paket Qurban {activeQurbanFilter} yang tersedia saat ini.</p>
               </div>
-            </div>
+            )}
 
-            <div className="about-media-collage" style={{ minWidth: 0, width: '100%' }}>
-              <div className="about-collage-img">
-                <img src={imageHero} alt="Kegiatan BMM 1" />
-              </div>
-              <div className="about-collage-img">
-                <img src={imageCard} alt="Kegiatan BMM 2" />
-              </div>
-              <div className="about-collage-img">
-                <img src={imageKegiatan} alt="Kegiatan BMM 3" />
-              </div>
-              <div className="about-collage-img">
-                <img src={imageProgram} alt="Kegiatan BMM 4" />
-              </div>
+            <div className="batch2-center-btn-wrapper">
+              <a href="#qurban" className="btn-lihat-semua">
+                <span className="btn-circle-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+                <span>Lihat Semua</span>
+              </a>
             </div>
           </div>
         </section>
 
-        {/* 10. BERITA TERBARU */}
-        <section className="news-section section-padding" id="berita">
+        {/* ========================================================================= */}
+        {/* BATCH 2 - BAGIAN B.2: MENGAPA QURBAN DI BAITULMAAL MUAMALAT */}
+        {/* ========================================================================= */}
+        <section className="mengapa-qurban-section" id="mengapa-qurban">
+          <img src={decorationKanan} alt="" className="mengapa-decor-right" aria-hidden="true" />
+
           <div className="container">
-            <div className="section-header-flex">
-              <div>
-
-                <h2 className="section-title">Berita Terbaru</h2>
+            <div className="batch2-section-header">
+              <div className="batch2-section-tag">
+                <span>✦</span> KENAPA
               </div>
-              <a href="#berita" className="btn btn-outline desktop-only">Lihat Semua &rarr;</a>
-            </div>
-
-            <div className="news-layout">
-              <div className="news-card-featured">
-                <div className="news-card-featured-image-wrapper">
-                  <img src={imageKegiatan} alt="Penyaluran Program Beasiswa Sarjana BMM" />
-                </div>
-                <div className="news-card-featured-content">
-                  <h3 className="news-card-featured-title">
-                    Penyaluran Program Beasiswa Sarjana BMM Angkatan IV Berlangsung Khidmat
-                  </h3>
-                  <span className="news-date">&#128197; 24 September 2024</span>
-                </div>
-              </div>
-
-              <div className="news-side-list">
-                <div className="news-card-small">
-                  <div className="news-card-small-media">
-                    <img src={imageProgram} alt="Berita 1" />
-                  </div>
-                  <div className="news-card-small-content">
-                    <h4 className="news-card-small-title">
-                      BMM Salurkan Bantuan Modal Usaha Bagi Pelaku UMKM Mustahik
-                    </h4>
-                    <span className="news-date">&#128197; 20 September 2024</span>
-                  </div>
-                </div>
-
-                <div className="news-card-small">
-                  <div className="news-card-small-media">
-                    <img src={imageCard} alt="Berita 2" />
-                  </div>
-                  <div className="news-card-small-content">
-                    <h4 className="news-card-small-title">
-                      Pendampingan Program Desa Mandiri Berdaya Capai Hasil Positif
-                    </h4>
-                    <span className="news-date">&#128197; 15 September 2024</span>
-                  </div>
-                </div>
-
-                <div className="news-card-small">
-                  <div className="news-card-small-media">
-                    <img src={imageHero} alt="Berita 3" />
-                  </div>
-                  <div className="news-card-small-content">
-                    <h4 className="news-card-small-title">
-                      BMM Gelar Pelatihan Manajemen Keuangan Syariah untuk Komunitas
-                    </h4>
-                    <span className="news-date">&#128197; 10 September 2024</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="center-btn-wrapper mobile-only" style={{ marginTop: '24px' }}>
-              <a href="#berita" className="btn btn-outline">Lihat Semua &rarr;</a>
-            </div>
-          </div>
-        </section>
-
-        {/* 11. TESTIMONI PENERIMA MANFAAT */}
-        <section className="beneficiary-section section-padding" style={{ backgroundColor: '#ffffff', width: '100%', maxWidth: '100%', overflow: 'hidden' }}>
-          <div className="container text-center" style={{ marginBottom: '40px' }}>
-            <div className="section-header" style={{ alignItems: 'center' }}>
-
-              <h2 className="section-title">Testimoni Penerima Manfaat</h2>
-              <p className="section-subtitle">
-                Cerita mereka yang telah merasakan manfaat dari kebaikan Anda.
+              <h2 className="batch2-section-title">
+                Mengapa Qurban <br />
+                <span className="text-purple">di Baitulmaal Muamalat?</span>
+              </h2>
+              <p className="batch2-section-subtitle">
+                Tunaikan ibadah qurban dengan tenang dan penuh makna. Bersama Baitulmaal, hadirkan penyaluran qurban yang amanah agar manfaatnya menjangkau lebih banyak saudara yang membutuhkan.
               </p>
             </div>
-          </div>
 
-          <div className="beneficiary-carousel-container" style={{ position: 'relative', width: '100%', overflow: 'hidden', padding: '20px 0' }}>
-            <div className="beneficiary-fade-left"></div>
-            <div className="beneficiary-fade-right"></div>
-
-            <div className="beneficiary-row">
-              <div className="beneficiary-track track-right">
-                {[...beneficiaryItems, ...beneficiaryItems, ...beneficiaryItems, ...beneficiaryItems].map((item, idx) => (
-                  <div
-                    className="beneficiary-card-auto"
-                    key={`row1-${idx}`}
-                    onClick={() => setActiveTestimonial(item)}
-                    role="button"
-                    tabIndex={0}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        setActiveTestimonial(item);
-                      }
-                    }}
-                  >
-                    <div className="beneficiary-header-auto">
-                      <img src={item.avatar} alt={item.name} className="beneficiary-avatar-auto" />
-                      <div className="beneficiary-info-auto">
-                        <h4 className="beneficiary-name-auto">{item.name}</h4>
-                        <span className="beneficiary-role-auto">{item.role}</span>
-                      </div>
-                    </div>
-                    <p className="beneficiary-quote-auto">&ldquo;{item.quote}&rdquo;</p>
+            <div className="mengapa-qurban-grid">
+              {mengapaQurbanFeatures.map((feat) => (
+                <div className="mengapa-qurban-card" key={feat.id}>
+                  <div className="mengapa-card-icon-wrap">
+                    <img src={feat.icon} alt={feat.title} className="mengapa-card-icon" />
                   </div>
-                ))}
-              </div>
+                  <h3 className="mengapa-card-title">{feat.title}</h3>
+                  <p className="mengapa-card-desc">{feat.desc}</p>
+                </div>
+              ))}
             </div>
+          </div>
+        </section>
 
-            <div className="beneficiary-row" style={{ marginBottom: 0 }}>
-              <div className="beneficiary-track track-left">
-                {[...beneficiaryItems, ...beneficiaryItems, ...beneficiaryItems, ...beneficiaryItems].map((item, idx) => (
-                  <div
-                    className="beneficiary-card-auto"
-                    key={`row2-${idx}`}
-                    onClick={() => setActiveTestimonial(item)}
-                    role="button"
-                    tabIndex={0}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        setActiveTestimonial(item);
-                      }
-                    }}
-                  >
-                    <div className="beneficiary-header-auto">
-                      <img src={item.avatar} alt={item.name} className="beneficiary-avatar-auto" />
-                      <div className="beneficiary-info-auto">
-                        <h4 className="beneficiary-name-auto">{item.name}</h4>
-                        <span className="beneficiary-role-auto">{item.role}</span>
+        {/* ========================================================================= */}
+        {/* BATCH 2 - BAGIAN B.3: BAGAIMANA PROSES QURBAN DI BMM */}
+        {/* ========================================================================= */}
+        <section className="proses-qurban-section" id="proses-qurban">
+
+          <div className="container">
+            <div className="proses-qurban-layout">
+              {/* Left Column */}
+              <div className="proses-qurban-left-col">
+                <div className="batch2-section-tag">
+                  <span>✦</span> PROSES QURBAN
+                </div>
+                <h2 className="proses-qurban-title">
+                  Bagaimana <br />
+                  <span className="text-purple">Proses Qurban</span> <br />
+                  di BMM?
+                </h2>
+                <p className="proses-qurban-desc">
+                  Berqurban bersama BMM kini lebih mudah dan praktis. Ikuti langkah-langkahnya, mulai dari memilih hewan qurban hingga penyaluran kepada penerima manfaat, dengan amanah dan penuh keberkahan.
+                </p>
+
+                <div className="proses-qurban-badges">
+                  <span className="proses-badge-item">Mudah</span>
+                  <span className="proses-badge-item">Transparant</span>
+                  <span className="proses-badge-item">Berdampak</span>
+                </div>
+              </div>
+
+              {/* Right Column */}
+              <div className="proses-qurban-right-col">
+                <img src={dekorGarisProsesQurban} alt="" className="proses-decor-line" aria-hidden="true" />
+                <div className="proses-steps-container">
+                  {prosesQurbanStepsData.map((step) => (
+                    <div className="proses-step-item" key={step.id}>
+                      <div className="proses-step-header">
+                        <img src={step.icon} alt={step.title} className="proses-step-img" />
+                        <h3 className="proses-step-title">{step.title}</h3>
                       </div>
+                      <p className="proses-step-desc">{step.desc}</p>
                     </div>
-                    <p className="beneficiary-quote-auto">&ldquo;{item.quote}&rdquo;</p>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 12. CTA BANNER */}
-        <section className="cta-banner-section">
+        {/* ========================================================================= */}
+        {/* BATCH 2 - BAGIAN C: DONASI PILIHAN GRID */}
+        {/* ========================================================================= */}
+        <section className="donasi-grid-section" id="donasi-grid">
+          <img src={decorationKiri} alt="" className="donasi-grid-decor-left" aria-hidden="true" />
+
           <div className="container">
-            <div className="cta-banner">
-              <img src={imageCta} alt="CTA Background" className="cta-banner-bg" />
-              <div className="cta-banner-overlay"></div>
-              <div className="cta-banner-content">
-                <div className="cta-text-group">
-                  <h2 className="cta-title desktop-only">
-                    Mari Wujudkan Kebaikan Bersama Baitulmaal Muamalat
-                  </h2>
-                  <p className="cta-subtitle desktop-only">
-                    Salurkan zakat, infaq, dan sedekah Anda melalui lembaga amil zakat terpercaya untuk keberkahan harta Anda dan kesejahteraan ummat.
-                  </p>
-                  <h2 className="cta-mobile-text mobile-only">
-                    Marilah tunaikan zakat, infaq, sedekah, dan wakaf<br /> di lembaga terpercaya dan amanah
-                  </h2>
+            <div className="batch2-section-header">
+              <div className="batch2-section-tag">
+                <span>✦</span> DONASI PILIHAN
+              </div>
+              <h2 className="batch2-section-title">
+                Donasi Pilihan <br />
+                <span className="text-purple">Baitulmaal Muamalat</span>
+              </h2>
+              <p className="batch2-section-subtitle">
+                Pilih dan salurkan dukungan Anda melalui berbagai program terbaik yang menghadirkan banyak manfaat.
+              </p>
+
+              {/* 6 Category Filters */}
+              <div className="donasi-grid-filter-box">
+                {donasiGridCategoriesList.map((cat) => (
+                  <button
+                    key={cat.id}
+                    className={`donasi-grid-filter-btn ${activeGridCategory === cat.id ? 'active' : ''}`}
+                    onClick={() => setActiveGridCategory(cat.id)}
+                  >
+                    <img src={cat.icon} alt="" className="donasi-grid-filter-icon" />
+                    <span>{cat.label}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="donasi-cards-grid">
+              {filteredGridPrograms.map((item) => (
+                <div
+                  className="bmm-donasi-card"
+                  key={`grid-${item.id}`}
+                  onClick={() => handleDonasiCardClick(item)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      handleDonasiCardClick(item);
+                    }
+                  }}
+                >
+                  <div className="bmm-donasi-card-media">
+                    <img src={item.img} alt={item.title} className="bmm-donasi-card-img" />
+                  </div>
+                  <div className="bmm-donasi-card-body">
+                    <h3 className="bmm-donasi-card-title">{item.title}</h3>
+                    <div className="bmm-donasi-card-stats">
+                      <div className="bmm-donasi-stat-left">
+                        <span className="bmm-donasi-stat-label">Dana Terkumpul</span>
+                        <span className="bmm-donasi-stat-val">{item.collected}</span>
+                      </div>
+                      <div className="bmm-donasi-stat-right">
+                        <span className="bmm-donasi-stat-label">Sisa Hari</span>
+                        <span className="bmm-donasi-stat-val">
+                          <img src={iconDonasiTime} alt="" className="bmm-donasi-time-icon" aria-hidden="true" />
+                          {item.sisaHari} Hari
+                        </span>
+                      </div>
+                    </div>
+                    <div className="bmm-donasi-progress-bar">
+                      <div
+                        className="bmm-donasi-progress-fill"
+                        style={{ width: `${Math.min(100, Math.max(0, item.progressValue))}%` }}
+                      >
+                        <span className="bmm-donasi-progress-thumb" aria-hidden="true"></span>
+                        <div className="bmm-donasi-progress-badge">
+                          {item.progress}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <a href="#donasi" className="btn btn-white cta-btn">
-                  <span className="desktop-only">Donasi Sekarang &rarr;</span>
-                  <span className="mobile-only">&rarr; Donasi Sekarang</span>
+              ))}
+            </div>
+
+            <div className="batch2-center-btn-wrapper">
+              <a href="#donasi" className="btn-lihat-semua">
+                <span className="btn-circle-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+                <span>Lihat Semua</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* ========================================================================= */}
+        {/* BATCH 3 - SECTION 1: BERITA TERBARU */}
+        {/* ========================================================================= */}
+        <section className="batch3-berita-section" id="berita">
+          <div className="container">
+            <div className="batch3-berita-header">
+              <div className="batch3-berita-header-left">
+                <div className="batch2-section-tag">
+                  <span>✦</span> BERITA
+                </div>
+                <h2 className="batch3-berita-title">
+                  Berita <span className="text-purple">Terbaru</span>
+                </h2>
+              </div>
+              <a href="#berita" className="btn-lihat-semua">
+                <span className="btn-circle-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+                <span>Lihat Semua</span>
+              </a>
+            </div>
+
+            <div className="batch3-berita-grid">
+              {/* Main Featured Card */}
+              <div className="batch3-berita-card batch3-berita-card-main">
+                <img src={newsItems[0].img} alt={newsItems[0].title} className="batch3-berita-img" />
+                <div className="batch3-berita-overlay"></div>
+                <div className="batch3-berita-content">
+                  <h3 className="batch3-berita-card-title main-title">{newsItems[0].title}</h3>
+                  <div className="batch3-berita-date">{newsItems[0].date}</div>
+                </div>
+              </div>
+
+              {/* Secondary Sub Cards */}
+              <div className="batch3-berita-sub-col">
+                <div className="batch3-berita-card batch3-berita-card-sub">
+                  <img src={newsItems[1].img} alt={newsItems[1].title} className="batch3-berita-img" />
+                  <div className="batch3-berita-overlay"></div>
+                  <div className="batch3-berita-content">
+                    <h3 className="batch3-berita-card-title sub-title">{newsItems[1].title}</h3>
+                    <div className="batch3-berita-date">{newsItems[1].date}</div>
+                  </div>
+                </div>
+
+                <div className="batch3-berita-card batch3-berita-card-sub">
+                  <img src={newsItems[2].img} alt={newsItems[2].title} className="batch3-berita-img" />
+                  <div className="batch3-berita-overlay"></div>
+                  <div className="batch3-berita-content">
+                    <h3 className="batch3-berita-card-title sub-title">{newsItems[2].title}</h3>
+                    <div className="batch3-berita-date">{newsItems[2].date}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ========================================================================= */}
+        {/* BATCH 3 - SECTION 2: CTA BANNER */}
+        {/* ========================================================================= */}
+        <section className="batch3-cta-section">
+          <div className="container">
+            <div className="batch3-cta-banner">
+              <img src={imageDonasiSekarang} alt="" className="batch3-cta-bg-img" aria-hidden="true" />
+              <div className="batch3-cta-overlay"></div>
+              <div className="batch3-cta-content">
+                <h2 className="batch3-cta-headline">
+                  Marilah tunaikan zakat, infak,{' '}
+                  <br className="desktop-br" />
+                  sedekah, dan wakaf di lembaga{' '}
+                  <br className="desktop-br" />
+                  terpercaya dan amanah
+                </h2>
+                <a href="#donasi-grid" className="batch3-cta-btn">
+                  <span className="btn-circle-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </span>
+                  <span>Donasi Sekarang</span>
                 </a>
               </div>
             </div>
@@ -1445,93 +1581,108 @@ export default function App() {
         </section>
       </main>
 
-      {/* 13. FOOTER */}
-      <footer className="site-footer">
+      {/* ========================================================================= */}
+      {/* BATCH 3 - SECTION 3: FOOTER */}
+      {/* ========================================================================= */}
+      <footer className="batch3-footer" id="footer">
         <div className="container">
-          <div className="footer-top-grid">
-            <div className="footer-col-main">
-              <img src={logoSm} alt="BMM Logo" className="footer-brand-logo" />
+          <div className="batch3-footer-top">
+            {/* Container 1 (Kiri): Brand, Disclaimer, Sosial Media, Fraud Notice */}
+            <div className="batch3-footer-brand-col batch3-footer-container-left">
+              <a href="#" className="batch3-footer-logo-link">
+                <img src={logoSm} alt="Baitulmaal Muamalat" className="batch3-footer-logo" />
+              </a>
 
-              <h4 className="footer-col-title-sm">DISCLAIMER</h4>
-              <p className="footer-brand-desc">
-                BMM tidak menerima dana yang bersumber dari tindak kejahatan, pencucian uang atau lainnya yang melanggar ketentuan syariah
-              </p>
-
-              <h4 className="footer-col-title-sm">TEMUKAN KAMI</h4>
-              <div className="footer-social-links">
-                <a href="#" className="social-icon-link" aria-label="Facebook"><img src={footerFacebook} alt="Facebook" /></a>
-                <a href="#" className="social-icon-link" aria-label="Instagram"><img src={footerInstagram} alt="Instagram" /></a>
-                <a href="#" className="social-icon-link" aria-label="YouTube"><img src={footerYoutube} alt="YouTube" /></a>
-                <a href="#" className="social-icon-link" aria-label="TikTok"><img src={footerTiktok} alt="TikTok" /></a>
-                <a href="#" className="social-icon-link" aria-label="X"><img src={footerX} alt="X" /></a>
+              <div className="batch3-footer-block">
+                <h4 className="batch3-footer-heading">DISCLAIMER</h4>
+                <p className="batch3-footer-text">
+                  BMM tidak menerima dana yang bersumber dari tindak kejahatan, pencucian uang atau lainnya yang melanggar ketentuan syariah
+                </p>
               </div>
 
-              <h4 className="footer-col-title-sm mt-4">Say No To Fraud & Gratification !</h4>
-              <p className="footer-brand-desc">
-                "BMM tidak pernah menggunakan rekening atas nama perorangan dalam penerimaan dana ZISWAF. Jika ada indikasi fraud dan gratifikasi, segera hubungi kami".
-              </p>
-
-              <a href="#" className="footer-btn-outline">Hubungi Kami</a>
-            </div>
-
-            <div className="footer-col-links">
-              <div className="footer-links-section">
-                <h4 className="footer-col-title">Program</h4>
-                <ul className="footer-link-list">
-                  <li><a href="#" className="footer-link">Sosial Dakwah</a></li>
-                  <li><a href="#" className="footer-link">Kemanusiaan</a></li>
-                  <li><a href="#" className="footer-link">Kesehatan</a></li>
-                  <li><a href="#" className="footer-link">Ekonomi</a></li>
-                  <li><a href="#" className="footer-link">Pendidikan</a></li>
-                </ul>
+              <div className="batch3-footer-block">
+                <h4 className="batch3-footer-heading">TEMUKAN KAMI</h4>
+                <div className="batch3-footer-socials">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="batch3-social-btn" aria-label="Facebook">
+                    <img src={footerIconFacebook} alt="Facebook" />
+                  </a>
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="batch3-social-btn" aria-label="Instagram">
+                    <img src={footerIconInstagram} alt="Instagram" />
+                  </a>
+                  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="batch3-social-btn" aria-label="YouTube">
+                    <img src={footerIconYoutube} alt="YouTube" />
+                  </a>
+                  <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="batch3-social-btn" aria-label="TikTok">
+                    <img src={footerIconTiktok} alt="TikTok" />
+                  </a>
+                  <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="batch3-social-btn" aria-label="X">
+                    <img src={footerIconX} alt="X" />
+                  </a>
+                </div>
               </div>
 
-              <div className="footer-links-section mt-4">
-                <h4 className="footer-col-title">Tentang Kami</h4>
-                <ul className="footer-link-list">
-                  <li><a href="#" className="footer-link">Visi Misi</a></li>
-                  <li><a href="#" className="footer-link">Struktur Organisasi</a></li>
-                  <li><a href="#" className="footer-link">Salam BMM</a></li>
-                  <li><a href="#" className="footer-link">Legal Formal</a></li>
-                  <li><a href="#" className="footer-link">Perwakilan</a></li>
-                  <li><a href="#" className="footer-link">Rekening Donasi</a></li>
-                  <li><a href="#" className="footer-link">Pengakuan dan Penghargaan</a></li>
-                </ul>
+              <div className="batch3-footer-block">
+                <h4 className="batch3-footer-heading">Say No To Fraud & Gratification !</h4>
+                <p className="batch3-footer-text">
+                  &ldquo;BMM tidak pernah menggunakan rekening atas nama perorangan dalam penerimaan dana ZISWAF. Jika ada indikasi fraud dan gratifikasi, segera hubungi kami&rdquo;.
+                </p>
+                <a href="#kontak" className="batch3-footer-btn-outline">Hubungi Kami</a>
               </div>
             </div>
 
-            <div className="footer-col-links">
-              <div className="footer-links-section">
-                <h4 className="footer-col-title">Donasi</h4>
-                <ul className="footer-link-list">
-                  <li><a href="#" className="footer-link">Palestina</a></li>
-                  <li><a href="#" className="footer-link">Al-Qu'an</a></li>
-                  <li><a href="#" className="footer-link">Yatim</a></li>
-                  <li><a href="#" className="footer-link">Pendidikan</a></li>
-                  <li><a href="#" className="footer-link">Bencana</a></li>
-                  <li><a href="#" className="footer-link">Kesehatan</a></li>
-                  <li><a href="#" className="footer-link">Ekonomi</a></li>
-                </ul>
+            {/* Container 2 (Kanan): Program, Layanan, Link, Lainnya */}
+            <div className="batch3-footer-nav-col batch3-footer-container-right">
+              {/* Sub-column 1: Program & Link */}
+              <div className="batch3-footer-nav-subcol">
+                <div className="batch3-footer-nav-group">
+                  <h4 className="batch3-footer-nav-title">Program</h4>
+                  <ul className="batch3-footer-nav-list">
+                    {footerProgramLinks.map((link, idx) => (
+                      <li key={idx}><a href={link.href}>{link.label}</a></li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="batch3-footer-nav-group">
+                  <h4 className="batch3-footer-nav-title">Link</h4>
+                  <ul className="batch3-footer-nav-list">
+                    {footerLinkLinks.map((link, idx) => (
+                      <li key={idx}><a href={link.href}>{link.label}</a></li>
+                    ))}
+                  </ul>
+                </div>
               </div>
 
-              <div className="footer-links-section mt-4">
-                <h4 className="footer-col-title">Lainnya</h4>
-                <ul className="footer-link-list">
-                  <li><a href="#" className="footer-link">Media</a></li>
-                  <li><a href="#" className="footer-link">Karir & Kerelawanan</a></li>
-                  <li><a href="#" className="footer-link">Kontak Kami</a></li>
-                  <li><a href="#" className="footer-link">FAQ</a></li>
-                  <li><a href="#" className="footer-link">Kebijakan & Privasi</a></li>
-                  <li><a href="#" className="footer-link">Syarat & Ketentuan</a></li>
-                </ul>
+              {/* Sub-column 2: Layanan & Lainnya */}
+              <div className="batch3-footer-nav-subcol">
+                <div className="batch3-footer-nav-group">
+                  <h4 className="batch3-footer-nav-title">Layanan</h4>
+                  <ul className="batch3-footer-nav-list">
+                    {footerLayananLinks.map((link, idx) => (
+                      <li key={idx}><a href={link.href}>{link.label}</a></li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="batch3-footer-nav-group">
+                  <h4 className="batch3-footer-nav-title">Lainnya</h4>
+                  <ul className="batch3-footer-nav-list">
+                    {footerLainnyaLinks.map((link, idx) => (
+                      <li key={idx}><a href={link.href}>{link.label}</a></li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="footer-bottom-bar">
-            <p>Copyright &copy; 2026 Baitulmaal Muamalat</p>
-            <div className="footer-bottom-badges">
-              <img src={footerVector} alt="Akreditasi & Sertifikasi" />
+          {/* Bottom Bar: Copyright and Awards */}
+          <div className="batch3-footer-bottom">
+            <p className="batch3-footer-copyright">
+              Copyright &copy; 2026 Baitulmaal Muamalat
+            </p>
+            <div className="batch3-footer-awards">
+              <img src={imageFooterAwards} alt="Penghargaan Baitulmaal Muamalat" />
             </div>
           </div>
         </div>
@@ -1550,7 +1701,7 @@ export default function App() {
             <div className="active-indicator"></div>
           </a>
 
-          <a href="#donasi" className="bottom-nav-item">
+          <a href="#donasi-grid" className="bottom-nav-item">
             <div className="bottom-nav-icon-wrapper">
               <img src={iconLovely} alt="Donasi" />
             </div>
@@ -1572,62 +1723,6 @@ export default function App() {
           </a>
         </div>
       </nav>
-
-      {/* AWARDS MODAL */}
-      {activeAward && (
-        <div className="award-modal-overlay" onClick={() => setActiveAward(null)}>
-          <div className="award-modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="award-modal-close" onClick={() => setActiveAward(null)} aria-label="Close modal">
-              &times;
-            </button>
-            <div className="award-modal-image-wrapper">
-              <img src={activeAward.image} alt={activeAward.title} className="award-modal-image" />
-            </div>
-            <h3 className="award-modal-title">{activeAward.title}</h3>
-          </div>
-        </div>
-      )}
-
-      {/* TESTIMONIAL MODAL */}
-      {activeTestimonial && (
-        <div
-          className="testimonial-modal-overlay"
-          onClick={() => setActiveTestimonial(null)}
-          role="dialog"
-          aria-modal="true"
-          aria-label="Detail Testimoni"
-        >
-          <div className="testimonial-modal-content" onClick={(e) => e.stopPropagation()}>
-            <button
-              className="testimonial-modal-close"
-              onClick={() => setActiveTestimonial(null)}
-              aria-label="Tutup modal"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="18" y1="6" x2="6" y2="18"></line>
-                <line x1="6" y1="6" x2="18" y2="18"></line>
-              </svg>
-            </button>
-            <div className="testimonial-modal-header">
-              <img
-                src={activeTestimonial.avatar}
-                alt={activeTestimonial.name}
-                className="testimonial-modal-avatar"
-              />
-              <div className="testimonial-modal-info">
-                <h3 className="testimonial-modal-name">{activeTestimonial.name}</h3>
-                <span className="testimonial-modal-role">{activeTestimonial.role}</span>
-              </div>
-            </div>
-            <div className="testimonial-modal-body">
-              <p className="testimonial-modal-quote">
-                &ldquo;{activeTestimonial.quote}&rdquo;
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
-
     </div>
   );
 }
